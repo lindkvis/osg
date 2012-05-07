@@ -125,7 +125,5 @@ void TexGen::apply(State&) const
         glTexGeni( GL_S, GL_TEXTURE_GEN_MODE, _mode );
         glTexGeni( GL_T, GL_TEXTURE_GEN_MODE, _mode );
     }
-#else
-    OSG_NOTICE<<"Warning: TexGen::apply(State&) - not supported."<<std::endl;
 #endif
 }

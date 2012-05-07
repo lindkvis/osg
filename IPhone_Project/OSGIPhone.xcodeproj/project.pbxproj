@@ -1387,6 +1387,8 @@
 		90EEDE7E10B9F554007F0292 /* ReaderWriterImageIO_IOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90EEDE7D10B9F554007F0292 /* ReaderWriterImageIO_IOS.cpp */; };
 		90EEDF6110BA01CB007F0292 /* libosgdb_imageio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EEDE7310B9F4F1007F0292 /* libosgdb_imageio.a */; };
 		90EEDFBF10BA07B8007F0292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EEDF4D10B9FCA1007F0292 /* CoreGraphics.framework */; };
+		A7B90AE41557ECDD00BDC614 /* ViewDependentShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B90AE11557ECA400BDC614 /* ViewDependentShadowMap.cpp */; };
+		A7B90AE51557ECE200BDC614 /* ShadowSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B90ADF1557EC9700BDC614 /* ShadowSettings.cpp */; };
 		D408D59E123F8C2600AABF93 /* MultiTouchTrackballManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D408D59D123F8C2600AABF93 /* MultiTouchTrackballManipulator.cpp */; };
 		D40F227A13EBE534004553FE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40F227913EBE534004553FE /* ImageIO.framework */; };
 		D40F227B13EBE534004553FE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40F227913EBE534004553FE /* ImageIO.framework */; };
@@ -3362,6 +3364,19 @@
 		90EEDE7310B9F4F1007F0292 /* libosgdb_imageio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosgdb_imageio.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EEDE7D10B9F554007F0292 /* ReaderWriterImageIO_IOS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ReaderWriterImageIO_IOS.cpp; path = ../src/osgPlugins/imageio/ReaderWriterImageIO_IOS.cpp; sourceTree = "<group>"; };
 		90EEDF4D10B9FCA1007F0292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7B90ADF1557EC9700BDC614 /* ShadowSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadowSettings.cpp; path = ../../osg/src/osgShadow/ShadowSettings.cpp; sourceTree = "<group>"; };
+		A7B90AE11557ECA400BDC614 /* ViewDependentShadowMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewDependentShadowMap.cpp; path = ../../osg/src/osgShadow/ViewDependentShadowMap.cpp; sourceTree = "<group>"; };
+		A7B90AE21557ECB900BDC614 /* ShadowSettings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShadowSettings; path = ../../osg/include/osgShadow/ShadowSettings; sourceTree = "<group>"; };
+		A7B90AE31557ECB900BDC614 /* ViewDependentShadowMap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ViewDependentShadowMap; path = ../../osg/include/osgShadow/ViewDependentShadowMap; sourceTree = "<group>"; };
+		A7B90AE61557ED7A00BDC614 /* StreamOperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StreamOperator.cpp; path = ../../osg/src/osgDB/StreamOperator.cpp; sourceTree = "<group>"; };
+		A7B90AE71557EDB400BDC614 /* DarwinUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DarwinUtils.h; path = ../../osg/src/osgViewer/DarwinUtils.h; sourceTree = "<group>"; };
+		A7B90AE81557EDB400BDC614 /* DarwinUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DarwinUtils.mm; path = ../../osg/src/osgViewer/DarwinUtils.mm; sourceTree = "<group>"; };
+		A7B90AE91557EDB400BDC614 /* GraphicsWindowCarbon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicsWindowCarbon.cpp; path = ../../osg/src/osgViewer/GraphicsWindowCarbon.cpp; sourceTree = "<group>"; };
+		A7B90AEA1557EDB400BDC614 /* GraphicsWindowCocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GraphicsWindowCocoa.mm; path = ../../osg/src/osgViewer/GraphicsWindowCocoa.mm; sourceTree = "<group>"; };
+		A7B90AEB1557EDB400BDC614 /* PixelBufferCarbon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PixelBufferCarbon.cpp; path = ../../osg/src/osgViewer/PixelBufferCarbon.cpp; sourceTree = "<group>"; };
+		A7B90AEC1557EDB400BDC614 /* PixelBufferCocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PixelBufferCocoa.mm; path = ../../osg/src/osgViewer/PixelBufferCocoa.mm; sourceTree = "<group>"; };
+		A7B90AED1557EE0700BDC614 /* ImageProcessor */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ImageProcessor; path = ../../osg/include/osgDB/ImageProcessor; sourceTree = "<group>"; };
+		A7B90AEF1557F4D100BDC614 /* Config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Config; path = ../../osg/IPhone_Project/config/osg/Config; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libosg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D408D59C123F8BD100AABF93 /* MultiTouchTrackballManipulator */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MultiTouchTrackballManipulator; path = ../include/osgGA/MultiTouchTrackballManipulator; sourceTree = SOURCE_ROOT; };
@@ -3919,12 +3934,14 @@
 				9014C42010C3654A00947117 /* ParallelSplitShadowMap.cpp */,
 				9014C42110C3654A00947117 /* ShadowedScene.cpp */,
 				9014C42210C3654A00947117 /* ShadowMap.cpp */,
+				A7B90ADF1557EC9700BDC614 /* ShadowSettings.cpp */,
 				9014C42310C3654A00947117 /* ShadowTechnique.cpp */,
 				9014C42410C3654A00947117 /* ShadowTexture.cpp */,
 				9014C42510C3654A00947117 /* ShadowVolume.cpp */,
 				9014C42610C3654A00947117 /* SoftShadowMap.cpp */,
 				9014C42710C3654A00947117 /* StandardShadowMap.cpp */,
 				9014C42810C3654A00947117 /* Version.cpp */,
+				A7B90AE11557ECA400BDC614 /* ViewDependentShadowMap.cpp */,
 				9014C42910C3654A00947117 /* ViewDependentShadowTechnique.cpp */,
 			);
 			name = osgShadow;
@@ -3933,6 +3950,8 @@
 		9014B50010C364AB00947117 /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				A7B90AE21557ECB900BDC614 /* ShadowSettings */,
+				A7B90AE31557ECB900BDC614 /* ViewDependentShadowMap */,
 				9014B50110C364D900947117 /* ConvexPolyhedron */,
 				9014B50210C364D900947117 /* DebugShadowMap */,
 				9014B50310C364D900947117 /* Export */,
@@ -4866,6 +4885,8 @@
 		908EC86210B78B0B0024EAD9 /* osgDB */ = {
 			isa = PBXGroup;
 			children = (
+				A7B90AED1557EE0700BDC614 /* ImageProcessor */,
+				A7B90AE61557ED7A00BDC614 /* StreamOperator.cpp */,
 				D4C10AFC139A27C900166A23 /* ExternalFileWriter.cpp */,
 				D43C19701168F09800C537EA /* Compressors.cpp */,
 				D43C19711168F09800C537EA /* InputStream.cpp */,
@@ -5128,6 +5149,7 @@
 		90B9089210B36AF400E10618 /* osg */ = {
 			isa = PBXGroup;
 			children = (
+				A7B90AEF1557F4D100BDC614 /* Config */,
 				D4178F3913A2642900637CF0 /* UserDataContainer.cpp */,
 				D4C0F6A713129B1F00BE4A39 /* GraphicsCostEstimator.cpp */,
 				D4FC8DA812F1733F00E433A5 /* BufferIndexBinding.cpp */,
@@ -5534,6 +5556,12 @@
 		90B90E1610B3A0DF00E10618 /* osgViewer */ = {
 			isa = PBXGroup;
 			children = (
+				A7B90AE71557EDB400BDC614 /* DarwinUtils.h */,
+				A7B90AE81557EDB400BDC614 /* DarwinUtils.mm */,
+				A7B90AE91557EDB400BDC614 /* GraphicsWindowCarbon.cpp */,
+				A7B90AEA1557EDB400BDC614 /* GraphicsWindowCocoa.mm */,
+				A7B90AEB1557EDB400BDC614 /* PixelBufferCarbon.cpp */,
+				A7B90AEC1557EDB400BDC614 /* PixelBufferCocoa.mm */,
 				D4992EA0136C33F100635EAD /* GraphicsWindow.cpp */,
 				90B90E1710B3A0F200E10618 /* header */,
 				90B90E4C10B3A5BB00E10618 /* api */,
@@ -7113,6 +7141,7 @@
 				9014C43110C3654A00947117 /* ParallelSplitShadowMap.cpp in Sources */,
 				9014C43210C3654A00947117 /* ShadowedScene.cpp in Sources */,
 				9014C43310C3654A00947117 /* ShadowMap.cpp in Sources */,
+				A7B90AE51557ECE200BDC614 /* ShadowSettings.cpp in Sources */,
 				9014C43410C3654A00947117 /* ShadowTechnique.cpp in Sources */,
 				9014C43510C3654A00947117 /* ShadowTexture.cpp in Sources */,
 				9014C43610C3654A00947117 /* ShadowVolume.cpp in Sources */,
@@ -7120,6 +7149,7 @@
 				9014C43810C3654A00947117 /* StandardShadowMap.cpp in Sources */,
 				9014C43910C3654A00947117 /* Version.cpp in Sources */,
 				9014C43A10C3654A00947117 /* ViewDependentShadowTechnique.cpp in Sources */,
+				A7B90AE41557ECDD00BDC614 /* ViewDependentShadowMap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
