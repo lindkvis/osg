@@ -17,7 +17,7 @@
 #include <osg/Uniform>
 #include <osgShadow/Export>
 
-namespace osgShadow {
+namespace osgShadow { 
 
 /** ShadowSettings provides the parameters that the ShadowTechnique should use as a guide for setting up shadowing.*/
 class OSGSHADOW_EXPORT ShadowSettings : public osg::Object

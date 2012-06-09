@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -91,40 +91,40 @@
 		9014B4C210C363BE00947117 /* Timeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014B48E10C3630700947117 /* Timeline.cpp */; };
 		9014B4C310C363BE00947117 /* TimelineAnimationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014B48F10C3630700947117 /* TimelineAnimationManager.cpp */; };
 		9014B4C510C363BE00947117 /* VertexInfluence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014B49110C3630700947117 /* VertexInfluence.cpp */; };
-		9014B4C610C363D000947117 /* Action in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45010C362C900947117 /* Action */; };
-		9014B4C710C363D000947117 /* ActionAnimation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45110C362C900947117 /* ActionAnimation */; };
-		9014B4C810C363D000947117 /* ActionBlendIn in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45210C362C900947117 /* ActionBlendIn */; };
-		9014B4C910C363D000947117 /* ActionBlendOut in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45310C362C900947117 /* ActionBlendOut */; };
-		9014B4CA10C363D000947117 /* ActionCallback in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45410C362C900947117 /* ActionCallback */; };
-		9014B4CB10C363D000947117 /* ActionStripAnimation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45510C362C900947117 /* ActionStripAnimation */; };
-		9014B4CC10C363D000947117 /* ActionVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45610C362C900947117 /* ActionVisitor */; };
-		9014B4CD10C363D000947117 /* Animation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45710C362C900947117 /* Animation */; };
-		9014B4CE10C363D000947117 /* AnimationManagerBase in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45810C362C900947117 /* AnimationManagerBase */; };
-		9014B4D010C363D000947117 /* BasicAnimationManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45A10C362C900947117 /* BasicAnimationManager */; };
-		9014B4D110C363D000947117 /* Bone in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45B10C362C900947117 /* Bone */; };
-		9014B4D210C363D000947117 /* BoneMapVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45C10C362C900947117 /* BoneMapVisitor */; };
-		9014B4D310C363D000947117 /* Channel in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45D10C362C900947117 /* Channel */; };
-		9014B4D510C363D000947117 /* CubicBezier in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45F10C362C900947117 /* CubicBezier */; };
-		9014B4D610C363D000947117 /* EaseMotion in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46010C362C900947117 /* EaseMotion */; };
-		9014B4D710C363D000947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46110C362C900947117 /* Export */; };
-		9014B4D910C363D000947117 /* FrameAction in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46310C362C900947117 /* FrameAction */; };
-		9014B4DA10C363D000947117 /* Interpolator in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46410C362C900947117 /* Interpolator */; };
-		9014B4DB10C363D000947117 /* Keyframe in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46510C362C900947117 /* Keyframe */; };
-		9014B4DC10C363D000947117 /* LinkVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46610C362C900947117 /* LinkVisitor */; };
-		9014B4DD10C363D000947117 /* MorphGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46710C362C900947117 /* MorphGeometry */; };
-		9014B4DE10C363D000947117 /* RigGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46810C362C900947117 /* RigGeometry */; };
-		9014B4DF10C363D000947117 /* RigTransform in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46910C362C900947117 /* RigTransform */; };
-		9014B4E010C363D000947117 /* RigTransformHardware in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46A10C362C900947117 /* RigTransformHardware */; };
-		9014B4E110C363D000947117 /* RigTransformSoftware in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46B10C362C900947117 /* RigTransformSoftware */; };
-		9014B4E210C363D000947117 /* Sampler in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46C10C362C900947117 /* Sampler */; };
-		9014B4E310C363D000947117 /* Skeleton in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46D10C362C900947117 /* Skeleton */; };
-		9014B4E510C363D000947117 /* StatsHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46F10C362C900947117 /* StatsHandler */; };
-		9014B4E610C363D000947117 /* StatsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47010C362C900947117 /* StatsVisitor */; };
-		9014B4E710C363D000947117 /* Target in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47110C362C900947117 /* Target */; };
-		9014B4E810C363D000947117 /* Timeline in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47210C362C900947117 /* Timeline */; };
-		9014B4E910C363D000947117 /* TimelineAnimationManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47310C362C900947117 /* TimelineAnimationManager */; };
-		9014B4EB10C363D000947117 /* Vec3Packed in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47510C362C900947117 /* Vec3Packed */; };
-		9014B4EC10C363D000947117 /* VertexInfluence in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47610C362C900947117 /* VertexInfluence */; };
+		9014B4C610C363D000947117 /* Action in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45010C362C900947117 /* Action */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4C710C363D000947117 /* ActionAnimation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45110C362C900947117 /* ActionAnimation */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4C810C363D000947117 /* ActionBlendIn in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45210C362C900947117 /* ActionBlendIn */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4C910C363D000947117 /* ActionBlendOut in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45310C362C900947117 /* ActionBlendOut */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4CA10C363D000947117 /* ActionCallback in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45410C362C900947117 /* ActionCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4CB10C363D000947117 /* ActionStripAnimation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45510C362C900947117 /* ActionStripAnimation */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4CC10C363D000947117 /* ActionVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45610C362C900947117 /* ActionVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4CD10C363D000947117 /* Animation in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45710C362C900947117 /* Animation */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4CE10C363D000947117 /* AnimationManagerBase in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45810C362C900947117 /* AnimationManagerBase */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D010C363D000947117 /* BasicAnimationManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45A10C362C900947117 /* BasicAnimationManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D110C363D000947117 /* Bone in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45B10C362C900947117 /* Bone */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D210C363D000947117 /* BoneMapVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45C10C362C900947117 /* BoneMapVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D310C363D000947117 /* Channel in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45D10C362C900947117 /* Channel */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D510C363D000947117 /* CubicBezier in Headers */ = {isa = PBXBuildFile; fileRef = 9014B45F10C362C900947117 /* CubicBezier */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D610C363D000947117 /* EaseMotion in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46010C362C900947117 /* EaseMotion */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D710C363D000947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46110C362C900947117 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4D910C363D000947117 /* FrameAction in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46310C362C900947117 /* FrameAction */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DA10C363D000947117 /* Interpolator in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46410C362C900947117 /* Interpolator */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DB10C363D000947117 /* Keyframe in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46510C362C900947117 /* Keyframe */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DC10C363D000947117 /* LinkVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46610C362C900947117 /* LinkVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DD10C363D000947117 /* MorphGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46710C362C900947117 /* MorphGeometry */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DE10C363D000947117 /* RigGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46810C362C900947117 /* RigGeometry */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4DF10C363D000947117 /* RigTransform in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46910C362C900947117 /* RigTransform */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E010C363D000947117 /* RigTransformHardware in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46A10C362C900947117 /* RigTransformHardware */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E110C363D000947117 /* RigTransformSoftware in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46B10C362C900947117 /* RigTransformSoftware */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E210C363D000947117 /* Sampler in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46C10C362C900947117 /* Sampler */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E310C363D000947117 /* Skeleton in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46D10C362C900947117 /* Skeleton */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E510C363D000947117 /* StatsHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014B46F10C362C900947117 /* StatsHandler */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E610C363D000947117 /* StatsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47010C362C900947117 /* StatsVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E710C363D000947117 /* Target in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47110C362C900947117 /* Target */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E810C363D000947117 /* Timeline in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47210C362C900947117 /* Timeline */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4E910C363D000947117 /* TimelineAnimationManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47310C362C900947117 /* TimelineAnimationManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4EB10C363D000947117 /* Vec3Packed in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47510C362C900947117 /* Vec3Packed */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014B4EC10C363D000947117 /* VertexInfluence in Headers */ = {isa = PBXBuildFile; fileRef = 9014B47610C362C900947117 /* VertexInfluence */; settings = {ATTRIBUTES = (Public, ); }; };
 		9014C42A10C3654A00947117 /* ConvexPolyhedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C41910C3654A00947117 /* ConvexPolyhedron.cpp */; };
 		9014C42B10C3654A00947117 /* DebugShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C41A10C3654A00947117 /* DebugShadowMap.cpp */; };
 		9014C42C10C3654A00947117 /* LightSpacePerspectiveShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C41B10C3654A00947117 /* LightSpacePerspectiveShadowMap.cpp */; };
@@ -142,25 +142,25 @@
 		9014C43810C3654A00947117 /* StandardShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C42710C3654A00947117 /* StandardShadowMap.cpp */; };
 		9014C43910C3654A00947117 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C42810C3654A00947117 /* Version.cpp */; };
 		9014C43A10C3654A00947117 /* ViewDependentShadowTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C42910C3654A00947117 /* ViewDependentShadowTechnique.cpp */; };
-		9014C43B10C3656D00947117 /* ConvexPolyhedron in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50110C364D900947117 /* ConvexPolyhedron */; };
-		9014C43C10C3656D00947117 /* DebugShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50210C364D900947117 /* DebugShadowMap */; };
-		9014C43D10C3656D00947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50310C364D900947117 /* Export */; };
-		9014C43E10C3656D00947117 /* LightSpacePerspectiveShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50410C364D900947117 /* LightSpacePerspectiveShadowMap */; };
-		9014C43F10C3656D00947117 /* MinimalCullBoundsShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50510C364D900947117 /* MinimalCullBoundsShadowMap */; };
-		9014C44010C3656D00947117 /* MinimalDrawBoundsShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50610C364D900947117 /* MinimalDrawBoundsShadowMap */; };
-		9014C44110C3656D00947117 /* MinimalShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50710C364D900947117 /* MinimalShadowMap */; };
-		9014C44210C3656D00947117 /* OccluderGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50810C364D900947117 /* OccluderGeometry */; };
-		9014C44310C3656D00947117 /* ParallelSplitShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50910C364D900947117 /* ParallelSplitShadowMap */; };
-		9014C44410C3656D00947117 /* ProjectionShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50A10C364D900947117 /* ProjectionShadowMap */; };
-		9014C44510C3656D00947117 /* ShadowedScene in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50B10C364D900947117 /* ShadowedScene */; };
-		9014C44610C3656D00947117 /* ShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50C10C364D900947117 /* ShadowMap */; };
-		9014C44710C3656D00947117 /* ShadowTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50D10C364D900947117 /* ShadowTechnique */; };
-		9014C44810C3656D00947117 /* ShadowTexture in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50E10C364D900947117 /* ShadowTexture */; };
-		9014C44910C3656D00947117 /* ShadowVolume in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50F10C364D900947117 /* ShadowVolume */; };
-		9014C44A10C3656D00947117 /* SoftShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51010C364D900947117 /* SoftShadowMap */; };
-		9014C44B10C3656D00947117 /* StandardShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51110C364D900947117 /* StandardShadowMap */; };
-		9014C44C10C3656D00947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51210C364D900947117 /* Version */; };
-		9014C44D10C3656D00947117 /* ViewDependentShadowTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51310C364D900947117 /* ViewDependentShadowTechnique */; };
+		9014C43B10C3656D00947117 /* ConvexPolyhedron in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50110C364D900947117 /* ConvexPolyhedron */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C43C10C3656D00947117 /* DebugShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50210C364D900947117 /* DebugShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C43D10C3656D00947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50310C364D900947117 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C43E10C3656D00947117 /* LightSpacePerspectiveShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50410C364D900947117 /* LightSpacePerspectiveShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C43F10C3656D00947117 /* MinimalCullBoundsShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50510C364D900947117 /* MinimalCullBoundsShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44010C3656D00947117 /* MinimalDrawBoundsShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50610C364D900947117 /* MinimalDrawBoundsShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44110C3656D00947117 /* MinimalShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50710C364D900947117 /* MinimalShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44210C3656D00947117 /* OccluderGeometry in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50810C364D900947117 /* OccluderGeometry */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44310C3656D00947117 /* ParallelSplitShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50910C364D900947117 /* ParallelSplitShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44410C3656D00947117 /* ProjectionShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50A10C364D900947117 /* ProjectionShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44510C3656D00947117 /* ShadowedScene in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50B10C364D900947117 /* ShadowedScene */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44610C3656D00947117 /* ShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50C10C364D900947117 /* ShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44710C3656D00947117 /* ShadowTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50D10C364D900947117 /* ShadowTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44810C3656D00947117 /* ShadowTexture in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50E10C364D900947117 /* ShadowTexture */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44910C3656D00947117 /* ShadowVolume in Headers */ = {isa = PBXBuildFile; fileRef = 9014B50F10C364D900947117 /* ShadowVolume */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44A10C3656D00947117 /* SoftShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51010C364D900947117 /* SoftShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44B10C3656D00947117 /* StandardShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51110C364D900947117 /* StandardShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44C10C3656D00947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51210C364D900947117 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C44D10C3656D00947117 /* ViewDependentShadowTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 9014B51310C364D900947117 /* ViewDependentShadowTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
 		9014C48810C366B900947117 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C47610C366B900947117 /* Box.cpp */; };
 		9014C48910C366B900947117 /* Browser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C47710C366B900947117 /* Browser.cpp */; };
 		9014C48A10C366B900947117 /* Canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C47810C366B900947117 /* Canvas.cpp */; };
@@ -179,53 +179,53 @@
 		9014C49710C366B900947117 /* Widget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C48510C366B900947117 /* Widget.cpp */; };
 		9014C49810C366B900947117 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C48610C366B900947117 /* Window.cpp */; };
 		9014C49910C366B900947117 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C48710C366B900947117 /* WindowManager.cpp */; };
-		9014C49A10C366D000947117 /* Box in Headers */ = {isa = PBXBuildFile; fileRef = 9014C45E10C3669E00947117 /* Box */; };
-		9014C49B10C366D000947117 /* Browser in Headers */ = {isa = PBXBuildFile; fileRef = 9014C45F10C3669E00947117 /* Browser */; };
-		9014C49C10C366D000947117 /* Canvas in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46010C3669E00947117 /* Canvas */; };
-		9014C49D10C366D000947117 /* EventInterface in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46110C3669E00947117 /* EventInterface */; };
-		9014C49E10C366D000947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46210C3669E00947117 /* Export */; };
-		9014C49F10C366D000947117 /* Frame in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46310C3669E00947117 /* Frame */; };
-		9014C4A010C366D000947117 /* Input in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46410C3669E00947117 /* Input */; };
-		9014C4A110C366D000947117 /* Label in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46510C3669E00947117 /* Label */; };
-		9014C4A210C366D000947117 /* Lua in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46610C3669E00947117 /* Lua */; };
-		9014C4A310C366D000947117 /* PdfReader in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46710C3669E00947117 /* PdfReader */; };
-		9014C4A410C366D000947117 /* Python in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46810C3669E00947117 /* Python */; };
-		9014C4A510C366D000947117 /* ScriptEngine in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46910C3669E00947117 /* ScriptEngine */; };
-		9014C4A610C366D000947117 /* StyleInterface in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46A10C3669E00947117 /* StyleInterface */; };
-		9014C4A710C366D000947117 /* StyleManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46B10C3669E00947117 /* StyleManager */; };
-		9014C4A810C366D000947117 /* Table in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46C10C3669E00947117 /* Table */; };
-		9014C4A910C366D000947117 /* Types in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46D10C3669E00947117 /* Types */; };
-		9014C4AA10C366D000947117 /* UIObjectParent in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46E10C3669E00947117 /* UIObjectParent */; };
-		9014C4AB10C366D000947117 /* Util in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46F10C3669E00947117 /* Util */; };
-		9014C4AC10C366D000947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47010C3669E00947117 /* Version */; };
-		9014C4AD10C366D000947117 /* ViewerEventHandlers in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47110C3669E00947117 /* ViewerEventHandlers */; };
-		9014C4AE10C366D000947117 /* VncClient in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47210C3669E00947117 /* VncClient */; };
-		9014C4AF10C366D000947117 /* Widget in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47310C3669E00947117 /* Widget */; };
-		9014C4B010C366D000947117 /* Window in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47410C3669E00947117 /* Window */; };
-		9014C4B110C366D000947117 /* WindowManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47510C3669E00947117 /* WindowManager */; };
-		9014C4EC10C368AD00947117 /* AntiSquish in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D510C3689900947117 /* AntiSquish */; };
-		9014C4ED10C368AD00947117 /* Command in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D610C3689900947117 /* Command */; };
-		9014C4EE10C368AD00947117 /* CommandManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D710C3689900947117 /* CommandManager */; };
-		9014C4EF10C368AD00947117 /* Constraint in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D810C3689900947117 /* Constraint */; };
-		9014C4F010C368AD00947117 /* Dragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D910C3689900947117 /* Dragger */; };
-		9014C4F110C368AD00947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DA10C3689900947117 /* Export */; };
-		9014C4F210C368AD00947117 /* Projector in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DB10C3689900947117 /* Projector */; };
-		9014C4F310C368AD00947117 /* RotateCylinderDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DC10C3689900947117 /* RotateCylinderDragger */; };
-		9014C4F410C368AD00947117 /* RotateSphereDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DD10C3689900947117 /* RotateSphereDragger */; };
-		9014C4F510C368AD00947117 /* Scale1DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DE10C3689900947117 /* Scale1DDragger */; };
-		9014C4F610C368AD00947117 /* Scale2DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DF10C3689900947117 /* Scale2DDragger */; };
-		9014C4F710C368AD00947117 /* ScaleAxisDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E010C3689900947117 /* ScaleAxisDragger */; };
-		9014C4F810C368AD00947117 /* Selection in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E110C3689900947117 /* Selection */; };
-		9014C4F910C368AD00947117 /* TabBoxDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E210C3689900947117 /* TabBoxDragger */; };
-		9014C4FA10C368AD00947117 /* TabBoxTrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E310C3689900947117 /* TabBoxTrackballDragger */; };
-		9014C4FB10C368AD00947117 /* TabPlaneDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E410C3689900947117 /* TabPlaneDragger */; };
-		9014C4FC10C368AD00947117 /* TabPlaneTrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E510C3689900947117 /* TabPlaneTrackballDragger */; };
-		9014C4FD10C368AD00947117 /* TrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E610C3689900947117 /* TrackballDragger */; };
-		9014C4FE10C368AD00947117 /* Translate1DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E710C3689900947117 /* Translate1DDragger */; };
-		9014C4FF10C368AD00947117 /* Translate2DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E810C3689900947117 /* Translate2DDragger */; };
-		9014C50010C368AD00947117 /* TranslateAxisDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E910C3689900947117 /* TranslateAxisDragger */; };
-		9014C50110C368AD00947117 /* TranslatePlaneDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4EA10C3689900947117 /* TranslatePlaneDragger */; };
-		9014C50210C368AD00947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4EB10C3689900947117 /* Version */; };
+		9014C49A10C366D000947117 /* Box in Headers */ = {isa = PBXBuildFile; fileRef = 9014C45E10C3669E00947117 /* Box */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C49B10C366D000947117 /* Browser in Headers */ = {isa = PBXBuildFile; fileRef = 9014C45F10C3669E00947117 /* Browser */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C49C10C366D000947117 /* Canvas in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46010C3669E00947117 /* Canvas */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C49D10C366D000947117 /* EventInterface in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46110C3669E00947117 /* EventInterface */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C49E10C366D000947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46210C3669E00947117 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C49F10C366D000947117 /* Frame in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46310C3669E00947117 /* Frame */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A010C366D000947117 /* Input in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46410C3669E00947117 /* Input */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A110C366D000947117 /* Label in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46510C3669E00947117 /* Label */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A210C366D000947117 /* Lua in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46610C3669E00947117 /* Lua */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A310C366D000947117 /* PdfReader in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46710C3669E00947117 /* PdfReader */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A410C366D000947117 /* Python in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46810C3669E00947117 /* Python */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A510C366D000947117 /* ScriptEngine in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46910C3669E00947117 /* ScriptEngine */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A610C366D000947117 /* StyleInterface in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46A10C3669E00947117 /* StyleInterface */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A710C366D000947117 /* StyleManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46B10C3669E00947117 /* StyleManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A810C366D000947117 /* Table in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46C10C3669E00947117 /* Table */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4A910C366D000947117 /* Types in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46D10C3669E00947117 /* Types */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AA10C366D000947117 /* UIObjectParent in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46E10C3669E00947117 /* UIObjectParent */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AB10C366D000947117 /* Util in Headers */ = {isa = PBXBuildFile; fileRef = 9014C46F10C3669E00947117 /* Util */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AC10C366D000947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47010C3669E00947117 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AD10C366D000947117 /* ViewerEventHandlers in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47110C3669E00947117 /* ViewerEventHandlers */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AE10C366D000947117 /* VncClient in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47210C3669E00947117 /* VncClient */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4AF10C366D000947117 /* Widget in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47310C3669E00947117 /* Widget */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4B010C366D000947117 /* Window in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47410C3669E00947117 /* Window */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4B110C366D000947117 /* WindowManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C47510C3669E00947117 /* WindowManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4EC10C368AD00947117 /* AntiSquish in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D510C3689900947117 /* AntiSquish */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4ED10C368AD00947117 /* Command in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D610C3689900947117 /* Command */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4EE10C368AD00947117 /* CommandManager in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D710C3689900947117 /* CommandManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4EF10C368AD00947117 /* Constraint in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D810C3689900947117 /* Constraint */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F010C368AD00947117 /* Dragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4D910C3689900947117 /* Dragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F110C368AD00947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DA10C3689900947117 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F210C368AD00947117 /* Projector in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DB10C3689900947117 /* Projector */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F310C368AD00947117 /* RotateCylinderDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DC10C3689900947117 /* RotateCylinderDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F410C368AD00947117 /* RotateSphereDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DD10C3689900947117 /* RotateSphereDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F510C368AD00947117 /* Scale1DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DE10C3689900947117 /* Scale1DDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F610C368AD00947117 /* Scale2DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4DF10C3689900947117 /* Scale2DDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F710C368AD00947117 /* ScaleAxisDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E010C3689900947117 /* ScaleAxisDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F810C368AD00947117 /* Selection in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E110C3689900947117 /* Selection */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4F910C368AD00947117 /* TabBoxDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E210C3689900947117 /* TabBoxDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FA10C368AD00947117 /* TabBoxTrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E310C3689900947117 /* TabBoxTrackballDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FB10C368AD00947117 /* TabPlaneDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E410C3689900947117 /* TabPlaneDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FC10C368AD00947117 /* TabPlaneTrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E510C3689900947117 /* TabPlaneTrackballDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FD10C368AD00947117 /* TrackballDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E610C3689900947117 /* TrackballDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FE10C368AD00947117 /* Translate1DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E710C3689900947117 /* Translate1DDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C4FF10C368AD00947117 /* Translate2DDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E810C3689900947117 /* Translate2DDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C50010C368AD00947117 /* TranslateAxisDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4E910C3689900947117 /* TranslateAxisDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C50110C368AD00947117 /* TranslatePlaneDragger in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4EA10C3689900947117 /* TranslatePlaneDragger */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C50210C368AD00947117 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 9014C4EB10C3689900947117 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		9014C51710C368E300947117 /* AntiSquish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C50310C368E300947117 /* AntiSquish.cpp */; };
 		9014C51810C368E300947117 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C50410C368E300947117 /* Command.cpp */; };
 		9014C51910C368E300947117 /* Constraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C50510C368E300947117 /* Constraint.cpp */; };
@@ -246,12 +246,12 @@
 		9014C52810C368E300947117 /* TranslateAxisDragger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C51410C368E300947117 /* TranslateAxisDragger.cpp */; };
 		9014C52910C368E300947117 /* TranslatePlaneDragger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C51510C368E300947117 /* TranslatePlaneDragger.cpp */; };
 		9014C52A10C368E300947117 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C51610C368E300947117 /* Version.cpp */; };
-		9014C53D10C369F500947117 /* AnimationMaterial in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53710C369CB00947117 /* AnimationMaterial */; };
-		9014C53E10C369F500947117 /* CompileSlideCallback in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53810C369CB00947117 /* CompileSlideCallback */; };
-		9014C53F10C369F500947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53910C369CB00947117 /* Export */; };
-		9014C54010C369F500947117 /* PickEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53A10C369CB00947117 /* PickEventHandler */; };
-		9014C54110C369F500947117 /* SlideEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53B10C369CB00947117 /* SlideEventHandler */; };
-		9014C54210C369F500947117 /* SlideShowConstructor in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53C10C369CB00947117 /* SlideShowConstructor */; };
+		9014C53D10C369F500947117 /* AnimationMaterial in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53710C369CB00947117 /* AnimationMaterial */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C53E10C369F500947117 /* CompileSlideCallback in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53810C369CB00947117 /* CompileSlideCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C53F10C369F500947117 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53910C369CB00947117 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C54010C369F500947117 /* PickEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53A10C369CB00947117 /* PickEventHandler */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C54110C369F500947117 /* SlideEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53B10C369CB00947117 /* SlideEventHandler */; settings = {ATTRIBUTES = (Public, ); }; };
+		9014C54210C369F500947117 /* SlideShowConstructor in Headers */ = {isa = PBXBuildFile; fileRef = 9014C53C10C369CB00947117 /* SlideShowConstructor */; settings = {ATTRIBUTES = (Public, ); }; };
 		9014C54810C36A1600947117 /* AnimationMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C54310C36A1600947117 /* AnimationMaterial.cpp */; };
 		9014C54910C36A1600947117 /* CompileSlideCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C54410C36A1600947117 /* CompileSlideCallback.cpp */; };
 		9014C54A10C36A1600947117 /* PickEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9014C54510C36A1600947117 /* PickEventHandler.cpp */; };
@@ -287,18 +287,18 @@
 		906D8D5310B8FD400089D3C3 /* Technique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8D4810B8FD400089D3C3 /* Technique.cpp */; };
 		906D8D5410B8FD400089D3C3 /* Validator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8D4910B8FD400089D3C3 /* Validator.cpp */; };
 		906D8D5510B8FD400089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8D4A10B8FD400089D3C3 /* Version.cpp */; };
-		906D8D6210B8FD730089D3C3 /* AnisotropicLighting in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5610B8FD5A0089D3C3 /* AnisotropicLighting */; };
-		906D8D6310B8FD730089D3C3 /* BumpMapping in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5710B8FD5A0089D3C3 /* BumpMapping */; };
-		906D8D6410B8FD730089D3C3 /* Cartoon in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5810B8FD5A0089D3C3 /* Cartoon */; };
-		906D8D6510B8FD730089D3C3 /* Effect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5910B8FD5A0089D3C3 /* Effect */; };
-		906D8D6610B8FD730089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5A10B8FD5A0089D3C3 /* Export */; };
-		906D8D6710B8FD730089D3C3 /* MultiTextureControl in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5B10B8FD5A0089D3C3 /* MultiTextureControl */; };
-		906D8D6810B8FD730089D3C3 /* Registry in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5C10B8FD5A0089D3C3 /* Registry */; };
-		906D8D6910B8FD730089D3C3 /* Scribe in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5D10B8FD5A0089D3C3 /* Scribe */; };
-		906D8D6A10B8FD730089D3C3 /* SpecularHighlights in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5E10B8FD5A0089D3C3 /* SpecularHighlights */; };
-		906D8D6B10B8FD730089D3C3 /* Technique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5F10B8FD5A0089D3C3 /* Technique */; };
-		906D8D6C10B8FD730089D3C3 /* Validator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D6010B8FD5A0089D3C3 /* Validator */; };
-		906D8D6D10B8FD730089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D6110B8FD5A0089D3C3 /* Version */; };
+		906D8D6210B8FD730089D3C3 /* AnisotropicLighting in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5610B8FD5A0089D3C3 /* AnisotropicLighting */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6310B8FD730089D3C3 /* BumpMapping in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5710B8FD5A0089D3C3 /* BumpMapping */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6410B8FD730089D3C3 /* Cartoon in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5810B8FD5A0089D3C3 /* Cartoon */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6510B8FD730089D3C3 /* Effect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5910B8FD5A0089D3C3 /* Effect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6610B8FD730089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5A10B8FD5A0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6710B8FD730089D3C3 /* MultiTextureControl in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5B10B8FD5A0089D3C3 /* MultiTextureControl */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6810B8FD730089D3C3 /* Registry in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5C10B8FD5A0089D3C3 /* Registry */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6910B8FD730089D3C3 /* Scribe in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5D10B8FD5A0089D3C3 /* Scribe */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6A10B8FD730089D3C3 /* SpecularHighlights in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5E10B8FD5A0089D3C3 /* SpecularHighlights */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6B10B8FD730089D3C3 /* Technique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D5F10B8FD5A0089D3C3 /* Technique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6C10B8FD730089D3C3 /* Validator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D6010B8FD5A0089D3C3 /* Validator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8D6D10B8FD730089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D6110B8FD5A0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D8DA910B8FF0E0089D3C3 /* DefaultFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8D9F10B8FF0E0089D3C3 /* DefaultFont.cpp */; };
 		906D8DAA10B8FF0E0089D3C3 /* DefaultFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DA010B8FF0E0089D3C3 /* DefaultFont.h */; };
 		906D8DAB10B8FF0E0089D3C3 /* FadeText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DA110B8FF0E0089D3C3 /* FadeText.cpp */; };
@@ -308,16 +308,16 @@
 		906D8DB010B8FF0E0089D3C3 /* Text3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DA610B8FF0E0089D3C3 /* Text3D.cpp */; };
 		906D8DB110B8FF0E0089D3C3 /* TextBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DA710B8FF0E0089D3C3 /* TextBase.cpp */; };
 		906D8DB210B8FF0E0089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DA810B8FF0E0089D3C3 /* Version.cpp */; };
-		906D8DB310B8FF340089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9510B8FEAB0089D3C3 /* Export */; };
-		906D8DB410B8FF340089D3C3 /* FadeText in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9610B8FEAB0089D3C3 /* FadeText */; };
-		906D8DB510B8FF340089D3C3 /* Font in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9710B8FEAB0089D3C3 /* Font */; };
-		906D8DB610B8FF340089D3C3 /* Font3D in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9810B8FEAB0089D3C3 /* Font3D */; };
-		906D8DB710B8FF340089D3C3 /* KerningType in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9910B8FEAB0089D3C3 /* KerningType */; };
-		906D8DB810B8FF340089D3C3 /* String in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9A10B8FEAB0089D3C3 /* String */; };
-		906D8DB910B8FF340089D3C3 /* Text in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9B10B8FEAB0089D3C3 /* Text */; };
-		906D8DBA10B8FF340089D3C3 /* Text3D in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9C10B8FEAB0089D3C3 /* Text3D */; };
-		906D8DBB10B8FF340089D3C3 /* TextBase in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9D10B8FEAB0089D3C3 /* TextBase */; };
-		906D8DBC10B8FF340089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9E10B8FEAB0089D3C3 /* Version */; };
+		906D8DB310B8FF340089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9510B8FEAB0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB410B8FF340089D3C3 /* FadeText in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9610B8FEAB0089D3C3 /* FadeText */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB510B8FF340089D3C3 /* Font in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9710B8FEAB0089D3C3 /* Font */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB610B8FF340089D3C3 /* Font3D in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9810B8FEAB0089D3C3 /* Font3D */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB710B8FF340089D3C3 /* KerningType in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9910B8FEAB0089D3C3 /* KerningType */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB810B8FF340089D3C3 /* String in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9A10B8FEAB0089D3C3 /* String */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DB910B8FF340089D3C3 /* Text in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9B10B8FEAB0089D3C3 /* Text */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DBA10B8FF340089D3C3 /* Text3D in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9C10B8FEAB0089D3C3 /* Text3D */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DBB10B8FF340089D3C3 /* TextBase in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9D10B8FEAB0089D3C3 /* TextBase */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8DBC10B8FF340089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8D9E10B8FEAB0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D8E1210B900B70089D3C3 /* BlinkSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DFA10B900B70089D3C3 /* BlinkSequence.cpp */; };
 		906D8E1310B900B70089D3C3 /* ColorRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DFB10B900B70089D3C3 /* ColorRange.cpp */; };
 		906D8E1410B900B70089D3C3 /* DOFTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8DFC10B900B70089D3C3 /* DOFTransform.cpp */; };
@@ -342,30 +342,30 @@
 		906D8E2710B900B70089D3C3 /* SphereSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E0F10B900B70089D3C3 /* SphereSegment.cpp */; };
 		906D8E2810B900B70089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E1010B900B70089D3C3 /* Version.cpp */; };
 		906D8E2910B900B70089D3C3 /* VisibilityGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E1110B900B70089D3C3 /* VisibilityGroup.cpp */; };
-		906D8E2A10B900D20089D3C3 /* BlinkSequence in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE210B9008F0089D3C3 /* BlinkSequence */; };
-		906D8E2B10B900D20089D3C3 /* ColorRange in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE310B9008F0089D3C3 /* ColorRange */; };
-		906D8E2C10B900D20089D3C3 /* DOFTransform in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE410B9008F0089D3C3 /* DOFTransform */; };
-		906D8E2D10B900D20089D3C3 /* ElevationSlice in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE510B9008F0089D3C3 /* ElevationSlice */; };
-		906D8E2E10B900D20089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE610B9008F0089D3C3 /* Export */; };
-		906D8E2F10B900D20089D3C3 /* GeographicLocation in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE710B9008F0089D3C3 /* GeographicLocation */; };
-		906D8E3010B900D20089D3C3 /* HeightAboveTerrain in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE810B9008F0089D3C3 /* HeightAboveTerrain */; };
-		906D8E3110B900D20089D3C3 /* Impostor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE910B9008F0089D3C3 /* Impostor */; };
-		906D8E3210B900D20089D3C3 /* ImpostorSprite in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEA10B9008F0089D3C3 /* ImpostorSprite */; };
-		906D8E3310B900D20089D3C3 /* InsertImpostorsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEB10B9008F0089D3C3 /* InsertImpostorsVisitor */; };
-		906D8E3410B900D20089D3C3 /* LightPoint in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEC10B9008F0089D3C3 /* LightPoint */; };
-		906D8E3510B900D20089D3C3 /* LightPointNode in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DED10B9008F0089D3C3 /* LightPointNode */; };
-		906D8E3610B900D20089D3C3 /* LightPointSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEE10B9008F0089D3C3 /* LightPointSystem */; };
-		906D8E3710B900D20089D3C3 /* LineOfSight in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEF10B9008F0089D3C3 /* LineOfSight */; };
-		906D8E3810B900D20089D3C3 /* MultiSwitch in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF010B9008F0089D3C3 /* MultiSwitch */; };
-		906D8E3910B900D20089D3C3 /* ObjectRecordData in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF110B9008F0089D3C3 /* ObjectRecordData */; };
-		906D8E3A10B900D20089D3C3 /* OverlayNode in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF210B9008F0089D3C3 /* OverlayNode */; };
-		906D8E3B10B900D20089D3C3 /* ScalarBar in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF310B9008F0089D3C3 /* ScalarBar */; };
-		906D8E3C10B900D20089D3C3 /* ScalarsToColors in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF410B9008F0089D3C3 /* ScalarsToColors */; };
-		906D8E3D10B900D20089D3C3 /* Sector in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF510B9008F0089D3C3 /* Sector */; };
-		906D8E3E10B900D20089D3C3 /* ShapeAttribute in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF610B9008F0089D3C3 /* ShapeAttribute */; };
-		906D8E3F10B900D20089D3C3 /* SphereSegment in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF710B9008F0089D3C3 /* SphereSegment */; };
-		906D8E4010B900D20089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF810B9008F0089D3C3 /* Version */; };
-		906D8E4110B900D20089D3C3 /* VisibilityGroup in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF910B9008F0089D3C3 /* VisibilityGroup */; };
+		906D8E2A10B900D20089D3C3 /* BlinkSequence in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE210B9008F0089D3C3 /* BlinkSequence */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E2B10B900D20089D3C3 /* ColorRange in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE310B9008F0089D3C3 /* ColorRange */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E2C10B900D20089D3C3 /* DOFTransform in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE410B9008F0089D3C3 /* DOFTransform */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E2D10B900D20089D3C3 /* ElevationSlice in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE510B9008F0089D3C3 /* ElevationSlice */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E2E10B900D20089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE610B9008F0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E2F10B900D20089D3C3 /* GeographicLocation in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE710B9008F0089D3C3 /* GeographicLocation */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3010B900D20089D3C3 /* HeightAboveTerrain in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE810B9008F0089D3C3 /* HeightAboveTerrain */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3110B900D20089D3C3 /* Impostor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DE910B9008F0089D3C3 /* Impostor */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3210B900D20089D3C3 /* ImpostorSprite in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEA10B9008F0089D3C3 /* ImpostorSprite */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3310B900D20089D3C3 /* InsertImpostorsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEB10B9008F0089D3C3 /* InsertImpostorsVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3410B900D20089D3C3 /* LightPoint in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEC10B9008F0089D3C3 /* LightPoint */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3510B900D20089D3C3 /* LightPointNode in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DED10B9008F0089D3C3 /* LightPointNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3610B900D20089D3C3 /* LightPointSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEE10B9008F0089D3C3 /* LightPointSystem */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3710B900D20089D3C3 /* LineOfSight in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DEF10B9008F0089D3C3 /* LineOfSight */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3810B900D20089D3C3 /* MultiSwitch in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF010B9008F0089D3C3 /* MultiSwitch */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3910B900D20089D3C3 /* ObjectRecordData in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF110B9008F0089D3C3 /* ObjectRecordData */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3A10B900D20089D3C3 /* OverlayNode in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF210B9008F0089D3C3 /* OverlayNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3B10B900D20089D3C3 /* ScalarBar in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF310B9008F0089D3C3 /* ScalarBar */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3C10B900D20089D3C3 /* ScalarsToColors in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF410B9008F0089D3C3 /* ScalarsToColors */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3D10B900D20089D3C3 /* Sector in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF510B9008F0089D3C3 /* Sector */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3E10B900D20089D3C3 /* ShapeAttribute in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF610B9008F0089D3C3 /* ShapeAttribute */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E3F10B900D20089D3C3 /* SphereSegment in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF710B9008F0089D3C3 /* SphereSegment */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E4010B900D20089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF810B9008F0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E4110B900D20089D3C3 /* VisibilityGroup in Headers */ = {isa = PBXBuildFile; fileRef = 906D8DF910B9008F0089D3C3 /* VisibilityGroup */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D8E8610B902440089D3C3 /* AnimationPathManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E7510B902440089D3C3 /* AnimationPathManipulator.cpp */; };
 		906D8E8710B902440089D3C3 /* CameraViewSwitchManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E7610B902440089D3C3 /* CameraViewSwitchManipulator.cpp */; };
 		906D8E8810B902440089D3C3 /* DriveManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E7710B902440089D3C3 /* DriveManipulator.cpp */; };
@@ -382,24 +382,24 @@
 		906D8E9410B902440089D3C3 /* TrackballManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E8310B902440089D3C3 /* TrackballManipulator.cpp */; };
 		906D8E9510B902440089D3C3 /* UFOManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E8410B902440089D3C3 /* UFOManipulator.cpp */; };
 		906D8E9610B902440089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8E8510B902440089D3C3 /* Version.cpp */; };
-		906D8E9710B9026E0089D3C3 /* AnimationPathManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6110B9022C0089D3C3 /* AnimationPathManipulator */; };
-		906D8E9810B9026E0089D3C3 /* CameraViewSwitchManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6210B9022C0089D3C3 /* CameraViewSwitchManipulator */; };
-		906D8E9910B9026E0089D3C3 /* DriveManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6310B9022C0089D3C3 /* DriveManipulator */; };
-		906D8E9A10B9026E0089D3C3 /* EventQueue in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6410B9022C0089D3C3 /* EventQueue */; };
-		906D8E9B10B9026E0089D3C3 /* EventVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6510B9022C0089D3C3 /* EventVisitor */; };
-		906D8E9C10B9026E0089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6610B9022C0089D3C3 /* Export */; };
-		906D8E9D10B9026E0089D3C3 /* FlightManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6710B9022C0089D3C3 /* FlightManipulator */; };
-		906D8E9E10B9026E0089D3C3 /* GUIActionAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6810B9022C0089D3C3 /* GUIActionAdapter */; };
-		906D8E9F10B9026E0089D3C3 /* GUIEventAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6910B9022C0089D3C3 /* GUIEventAdapter */; };
-		906D8EA010B9026E0089D3C3 /* GUIEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6A10B9022C0089D3C3 /* GUIEventHandler */; };
-		906D8EA110B9026E0089D3C3 /* KeySwitchMatrixManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6B10B9022C0089D3C3 /* KeySwitchMatrixManipulator */; };
-		906D8EA310B9026E0089D3C3 /* NodeTrackerManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6D10B9022C0089D3C3 /* NodeTrackerManipulator */; };
-		906D8EA410B9026E0089D3C3 /* SphericalManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6E10B9022C0089D3C3 /* SphericalManipulator */; };
-		906D8EA510B9026E0089D3C3 /* StateSetManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6F10B9022C0089D3C3 /* StateSetManipulator */; };
-		906D8EA610B9026E0089D3C3 /* TerrainManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7010B9022C0089D3C3 /* TerrainManipulator */; };
-		906D8EA710B9026E0089D3C3 /* TrackballManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7110B9022C0089D3C3 /* TrackballManipulator */; };
-		906D8EA810B9026E0089D3C3 /* UFOManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7210B9022C0089D3C3 /* UFOManipulator */; };
-		906D8EA910B9026E0089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7310B9022C0089D3C3 /* Version */; };
+		906D8E9710B9026E0089D3C3 /* AnimationPathManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6110B9022C0089D3C3 /* AnimationPathManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9810B9026E0089D3C3 /* CameraViewSwitchManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6210B9022C0089D3C3 /* CameraViewSwitchManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9910B9026E0089D3C3 /* DriveManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6310B9022C0089D3C3 /* DriveManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9A10B9026E0089D3C3 /* EventQueue in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6410B9022C0089D3C3 /* EventQueue */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9B10B9026E0089D3C3 /* EventVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6510B9022C0089D3C3 /* EventVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9C10B9026E0089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6610B9022C0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9D10B9026E0089D3C3 /* FlightManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6710B9022C0089D3C3 /* FlightManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9E10B9026E0089D3C3 /* GUIActionAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6810B9022C0089D3C3 /* GUIActionAdapter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8E9F10B9026E0089D3C3 /* GUIEventAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6910B9022C0089D3C3 /* GUIEventAdapter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA010B9026E0089D3C3 /* GUIEventHandler in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6A10B9022C0089D3C3 /* GUIEventHandler */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA110B9026E0089D3C3 /* KeySwitchMatrixManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6B10B9022C0089D3C3 /* KeySwitchMatrixManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA310B9026E0089D3C3 /* NodeTrackerManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6D10B9022C0089D3C3 /* NodeTrackerManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA410B9026E0089D3C3 /* SphericalManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6E10B9022C0089D3C3 /* SphericalManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA510B9026E0089D3C3 /* StateSetManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E6F10B9022C0089D3C3 /* StateSetManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA610B9026E0089D3C3 /* TerrainManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7010B9022C0089D3C3 /* TerrainManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA710B9026E0089D3C3 /* TrackballManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7110B9022C0089D3C3 /* TrackballManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA810B9026E0089D3C3 /* UFOManipulator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7210B9022C0089D3C3 /* UFOManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8EA910B9026E0089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8E7310B9022C0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D8F0010B905620089D3C3 /* ConnectedParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EEC10B905620089D3C3 /* ConnectedParticleSystem.cpp */; };
 		906D8F0110B905620089D3C3 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EED10B905620089D3C3 /* Emitter.cpp */; };
 		906D8F0210B905620089D3C3 /* ExplosionDebrisEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EEE10B905620089D3C3 /* ExplosionDebrisEffect.cpp */; };
@@ -420,46 +420,46 @@
 		906D8F1110B905620089D3C3 /* SmokeEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EFD10B905620089D3C3 /* SmokeEffect.cpp */; };
 		906D8F1210B905620089D3C3 /* SmokeTrailEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EFE10B905620089D3C3 /* SmokeTrailEffect.cpp */; };
 		906D8F1310B905620089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8EFF10B905620089D3C3 /* Version.cpp */; };
-		906D8F2810B905950089D3C3 /* AccelOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC410B9054C0089D3C3 /* AccelOperator */; };
-		906D8F2910B905950089D3C3 /* AngularAccelOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC510B9054C0089D3C3 /* AngularAccelOperator */; };
-		906D8F2A10B905950089D3C3 /* BoxPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC610B9054C0089D3C3 /* BoxPlacer */; };
-		906D8F2B10B905950089D3C3 /* CenteredPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC710B9054C0089D3C3 /* CenteredPlacer */; };
-		906D8F2C10B905950089D3C3 /* ConnectedParticleSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC810B9054C0089D3C3 /* ConnectedParticleSystem */; };
-		906D8F2D10B905950089D3C3 /* ConstantRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC910B9054C0089D3C3 /* ConstantRateCounter */; };
-		906D8F2E10B905950089D3C3 /* Counter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECA10B9054C0089D3C3 /* Counter */; };
-		906D8F2F10B905950089D3C3 /* Emitter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECB10B9054C0089D3C3 /* Emitter */; };
-		906D8F3010B905950089D3C3 /* ExplosionDebrisEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECC10B9054C0089D3C3 /* ExplosionDebrisEffect */; };
-		906D8F3110B905950089D3C3 /* ExplosionEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECD10B9054C0089D3C3 /* ExplosionEffect */; };
-		906D8F3210B905950089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECE10B9054C0089D3C3 /* Export */; };
-		906D8F3310B905950089D3C3 /* FireEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECF10B9054C0089D3C3 /* FireEffect */; };
-		906D8F3410B905950089D3C3 /* FluidFrictionOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED010B9054C0089D3C3 /* FluidFrictionOperator */; };
-		906D8F3510B905950089D3C3 /* FluidProgram in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED110B9054C0089D3C3 /* FluidProgram */; };
-		906D8F3610B905950089D3C3 /* ForceOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED210B9054C0089D3C3 /* ForceOperator */; };
-		906D8F3710B905950089D3C3 /* Interpolator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED310B9054C0089D3C3 /* Interpolator */; };
-		906D8F3810B905950089D3C3 /* LinearInterpolator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED410B9054C0089D3C3 /* LinearInterpolator */; };
-		906D8F3910B905950089D3C3 /* ModularEmitter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED510B9054C0089D3C3 /* ModularEmitter */; };
-		906D8F3A10B905950089D3C3 /* ModularProgram in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED610B9054C0089D3C3 /* ModularProgram */; };
-		906D8F3B10B905950089D3C3 /* MultiSegmentPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED710B9054C0089D3C3 /* MultiSegmentPlacer */; };
-		906D8F3C10B905950089D3C3 /* Operator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED810B9054C0089D3C3 /* Operator */; };
-		906D8F3D10B905950089D3C3 /* Particle in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED910B9054C0089D3C3 /* Particle */; };
-		906D8F3E10B905950089D3C3 /* ParticleEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDA10B9054C0089D3C3 /* ParticleEffect */; };
-		906D8F3F10B905950089D3C3 /* ParticleProcessor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDB10B9054C0089D3C3 /* ParticleProcessor */; };
-		906D8F4010B905950089D3C3 /* ParticleSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDC10B9054C0089D3C3 /* ParticleSystem */; };
-		906D8F4110B905950089D3C3 /* ParticleSystemUpdater in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDD10B9054C0089D3C3 /* ParticleSystemUpdater */; };
-		906D8F4210B905950089D3C3 /* Placer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDE10B9054C0089D3C3 /* Placer */; };
-		906D8F4310B905950089D3C3 /* PointPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDF10B9054C0089D3C3 /* PointPlacer */; };
-		906D8F4410B905950089D3C3 /* PrecipitationEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE010B9054C0089D3C3 /* PrecipitationEffect */; };
-		906D8F4510B905950089D3C3 /* Program in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE110B9054C0089D3C3 /* Program */; };
-		906D8F4610B905950089D3C3 /* RadialShooter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE210B9054C0089D3C3 /* RadialShooter */; };
-		906D8F4710B905950089D3C3 /* RandomRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE310B9054C0089D3C3 /* RandomRateCounter */; };
-		906D8F4810B905950089D3C3 /* range in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE410B9054C0089D3C3 /* range */; };
-		906D8F4910B905950089D3C3 /* SectorPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE510B9054C0089D3C3 /* SectorPlacer */; };
-		906D8F4A10B905950089D3C3 /* SegmentPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE610B9054C0089D3C3 /* SegmentPlacer */; };
-		906D8F4B10B905950089D3C3 /* Shooter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE710B9054C0089D3C3 /* Shooter */; };
-		906D8F4C10B905950089D3C3 /* SmokeEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE810B9054C0089D3C3 /* SmokeEffect */; };
-		906D8F4D10B905950089D3C3 /* SmokeTrailEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE910B9054C0089D3C3 /* SmokeTrailEffect */; };
-		906D8F4E10B905950089D3C3 /* VariableRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EEA10B9054C0089D3C3 /* VariableRateCounter */; };
-		906D8F4F10B905950089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EEB10B9054C0089D3C3 /* Version */; };
+		906D8F2810B905950089D3C3 /* AccelOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC410B9054C0089D3C3 /* AccelOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2910B905950089D3C3 /* AngularAccelOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC510B9054C0089D3C3 /* AngularAccelOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2A10B905950089D3C3 /* BoxPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC610B9054C0089D3C3 /* BoxPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2B10B905950089D3C3 /* CenteredPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC710B9054C0089D3C3 /* CenteredPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2C10B905950089D3C3 /* ConnectedParticleSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC810B9054C0089D3C3 /* ConnectedParticleSystem */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2D10B905950089D3C3 /* ConstantRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EC910B9054C0089D3C3 /* ConstantRateCounter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2E10B905950089D3C3 /* Counter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECA10B9054C0089D3C3 /* Counter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F2F10B905950089D3C3 /* Emitter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECB10B9054C0089D3C3 /* Emitter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3010B905950089D3C3 /* ExplosionDebrisEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECC10B9054C0089D3C3 /* ExplosionDebrisEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3110B905950089D3C3 /* ExplosionEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECD10B9054C0089D3C3 /* ExplosionEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3210B905950089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECE10B9054C0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3310B905950089D3C3 /* FireEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ECF10B9054C0089D3C3 /* FireEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3410B905950089D3C3 /* FluidFrictionOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED010B9054C0089D3C3 /* FluidFrictionOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3510B905950089D3C3 /* FluidProgram in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED110B9054C0089D3C3 /* FluidProgram */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3610B905950089D3C3 /* ForceOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED210B9054C0089D3C3 /* ForceOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3710B905950089D3C3 /* Interpolator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED310B9054C0089D3C3 /* Interpolator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3810B905950089D3C3 /* LinearInterpolator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED410B9054C0089D3C3 /* LinearInterpolator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3910B905950089D3C3 /* ModularEmitter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED510B9054C0089D3C3 /* ModularEmitter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3A10B905950089D3C3 /* ModularProgram in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED610B9054C0089D3C3 /* ModularProgram */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3B10B905950089D3C3 /* MultiSegmentPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED710B9054C0089D3C3 /* MultiSegmentPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3C10B905950089D3C3 /* Operator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED810B9054C0089D3C3 /* Operator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3D10B905950089D3C3 /* Particle in Headers */ = {isa = PBXBuildFile; fileRef = 906D8ED910B9054C0089D3C3 /* Particle */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3E10B905950089D3C3 /* ParticleEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDA10B9054C0089D3C3 /* ParticleEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F3F10B905950089D3C3 /* ParticleProcessor in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDB10B9054C0089D3C3 /* ParticleProcessor */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4010B905950089D3C3 /* ParticleSystem in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDC10B9054C0089D3C3 /* ParticleSystem */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4110B905950089D3C3 /* ParticleSystemUpdater in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDD10B9054C0089D3C3 /* ParticleSystemUpdater */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4210B905950089D3C3 /* Placer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDE10B9054C0089D3C3 /* Placer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4310B905950089D3C3 /* PointPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EDF10B9054C0089D3C3 /* PointPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4410B905950089D3C3 /* PrecipitationEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE010B9054C0089D3C3 /* PrecipitationEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4510B905950089D3C3 /* Program in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE110B9054C0089D3C3 /* Program */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4610B905950089D3C3 /* RadialShooter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE210B9054C0089D3C3 /* RadialShooter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4710B905950089D3C3 /* RandomRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE310B9054C0089D3C3 /* RandomRateCounter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4810B905950089D3C3 /* range in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE410B9054C0089D3C3 /* range */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4910B905950089D3C3 /* SectorPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE510B9054C0089D3C3 /* SectorPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4A10B905950089D3C3 /* SegmentPlacer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE610B9054C0089D3C3 /* SegmentPlacer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4B10B905950089D3C3 /* Shooter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE710B9054C0089D3C3 /* Shooter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4C10B905950089D3C3 /* SmokeEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE810B9054C0089D3C3 /* SmokeEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4D10B905950089D3C3 /* SmokeTrailEffect in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EE910B9054C0089D3C3 /* SmokeTrailEffect */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4E10B905950089D3C3 /* VariableRateCounter in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EEA10B9054C0089D3C3 /* VariableRateCounter */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8F4F10B905950089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8EEB10B9054C0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D8F9A10B909330089D3C3 /* GeometryTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9310B909330089D3C3 /* GeometryTechnique.cpp */; };
 		906D8F9B10B909330089D3C3 /* Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9410B909330089D3C3 /* Layer.cpp */; };
 		906D8F9C10B909330089D3C3 /* Locator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9510B909330089D3C3 /* Locator.cpp */; };
@@ -467,15 +467,15 @@
 		906D8F9E10B909330089D3C3 /* TerrainTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9710B909330089D3C3 /* TerrainTechnique.cpp */; };
 		906D8F9F10B909330089D3C3 /* TerrainTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9810B909330089D3C3 /* TerrainTile.cpp */; };
 		906D8FA010B909330089D3C3 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D8F9910B909330089D3C3 /* Version.cpp */; };
-		906D8FA110B9094F0089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8A10B909180089D3C3 /* Export */; };
-		906D8FA210B9094F0089D3C3 /* GeometryTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8B10B909180089D3C3 /* GeometryTechnique */; };
-		906D8FA310B9094F0089D3C3 /* Layer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8C10B909180089D3C3 /* Layer */; };
-		906D8FA410B9094F0089D3C3 /* Locator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8D10B909180089D3C3 /* Locator */; };
-		906D8FA510B9094F0089D3C3 /* Terrain in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8E10B909180089D3C3 /* Terrain */; };
-		906D8FA610B9094F0089D3C3 /* TerrainTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8F10B909180089D3C3 /* TerrainTechnique */; };
-		906D8FA710B9094F0089D3C3 /* TerrainTile in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9010B909180089D3C3 /* TerrainTile */; };
-		906D8FA810B9094F0089D3C3 /* ValidDataOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9110B909180089D3C3 /* ValidDataOperator */; };
-		906D8FA910B9094F0089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9210B909180089D3C3 /* Version */; };
+		906D8FA110B9094F0089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8A10B909180089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA210B9094F0089D3C3 /* GeometryTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8B10B909180089D3C3 /* GeometryTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA310B9094F0089D3C3 /* Layer in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8C10B909180089D3C3 /* Layer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA410B9094F0089D3C3 /* Locator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8D10B909180089D3C3 /* Locator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA510B9094F0089D3C3 /* Terrain in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8E10B909180089D3C3 /* Terrain */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA610B9094F0089D3C3 /* TerrainTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F8F10B909180089D3C3 /* TerrainTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA710B9094F0089D3C3 /* TerrainTile in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9010B909180089D3C3 /* TerrainTile */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA810B9094F0089D3C3 /* ValidDataOperator in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9110B909180089D3C3 /* ValidDataOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D8FA910B9094F0089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D8F9210B909180089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D90C910B915470089D3C3 /* FixedFunctionTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C010B915470089D3C3 /* FixedFunctionTechnique.cpp */; };
 		906D90CA10B915470089D3C3 /* Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C110B915470089D3C3 /* Layer.cpp */; };
 		906D90CB10B915470089D3C3 /* Locator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C210B915470089D3C3 /* Locator.cpp */; };
@@ -485,16 +485,16 @@
 		906D90CF10B915470089D3C3 /* Volume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C610B915470089D3C3 /* Volume.cpp */; };
 		906D90D010B915470089D3C3 /* VolumeTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C710B915470089D3C3 /* VolumeTechnique.cpp */; };
 		906D90D110B915470089D3C3 /* VolumeTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906D90C810B915470089D3C3 /* VolumeTile.cpp */; };
-		906D90D210B915620089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B610B9152D0089D3C3 /* Export */; };
-		906D90D310B915620089D3C3 /* FixedFunctionTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B710B9152D0089D3C3 /* FixedFunctionTechnique */; };
-		906D90D410B915620089D3C3 /* Layer in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B810B9152D0089D3C3 /* Layer */; };
-		906D90D510B915620089D3C3 /* Locator in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B910B9152D0089D3C3 /* Locator */; };
-		906D90D610B915620089D3C3 /* Property in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BA10B9152D0089D3C3 /* Property */; };
-		906D90D710B915620089D3C3 /* RayTracedTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BB10B9152D0089D3C3 /* RayTracedTechnique */; };
-		906D90D810B915620089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BC10B9152D0089D3C3 /* Version */; };
-		906D90D910B915620089D3C3 /* Volume in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BD10B9152D0089D3C3 /* Volume */; };
-		906D90DA10B915620089D3C3 /* VolumeTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BE10B9152D0089D3C3 /* VolumeTechnique */; };
-		906D90DB10B915620089D3C3 /* VolumeTile in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BF10B9152D0089D3C3 /* VolumeTile */; };
+		906D90D210B915620089D3C3 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B610B9152D0089D3C3 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D310B915620089D3C3 /* FixedFunctionTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B710B9152D0089D3C3 /* FixedFunctionTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D410B915620089D3C3 /* Layer in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B810B9152D0089D3C3 /* Layer */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D510B915620089D3C3 /* Locator in Headers */ = {isa = PBXBuildFile; fileRef = 906D90B910B9152D0089D3C3 /* Locator */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D610B915620089D3C3 /* Property in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BA10B9152D0089D3C3 /* Property */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D710B915620089D3C3 /* RayTracedTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BB10B9152D0089D3C3 /* RayTracedTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D810B915620089D3C3 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BC10B9152D0089D3C3 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90D910B915620089D3C3 /* Volume in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BD10B9152D0089D3C3 /* Volume */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90DA10B915620089D3C3 /* VolumeTechnique in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BE10B9152D0089D3C3 /* VolumeTechnique */; settings = {ATTRIBUTES = (Public, ); }; };
+		906D90DB10B915620089D3C3 /* VolumeTile in Headers */ = {isa = PBXBuildFile; fileRef = 906D90BF10B9152D0089D3C3 /* VolumeTile */; settings = {ATTRIBUTES = (Public, ); }; };
 		906D935310B926AD0089D3C3 /* AlphaFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D925310B926650089D3C3 /* AlphaFunc.h */; };
 		906D935410B926AD0089D3C3 /* AnimationPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D925510B926650089D3C3 /* AnimationPath.h */; };
 		906D935510B926AD0089D3C3 /* AnimationPathCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D925710B926650089D3C3 /* AnimationPathCallback.h */; };
@@ -786,243 +786,240 @@
 		908EC69610B75FC20024EAD9 /* TriStripVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC66E10B75FC20024EAD9 /* TriStripVisitor.cpp */; };
 		908EC69710B75FC20024EAD9 /* UpdateVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC66F10B75FC20024EAD9 /* UpdateVisitor.cpp */; };
 		908EC69810B75FC20024EAD9 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC67010B75FC20024EAD9 /* Version.cpp */; };
-		908EC69910B75FF90024EAD9 /* ConvertVec in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62110B75FAC0024EAD9 /* ConvertVec */; };
-		908EC69A10B75FF90024EAD9 /* CubeMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62210B75FAC0024EAD9 /* CubeMapGenerator */; };
-		908EC69B10B75FF90024EAD9 /* CullVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62310B75FAC0024EAD9 /* CullVisitor */; };
-		908EC69C10B75FF90024EAD9 /* DelaunayTriangulator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62410B75FAC0024EAD9 /* DelaunayTriangulator */; };
-		908EC69D10B75FF90024EAD9 /* DisplayRequirementsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62510B75FAC0024EAD9 /* DisplayRequirementsVisitor */; };
-		908EC69E10B75FF90024EAD9 /* DrawElementTypeSimplifier in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62610B75FAC0024EAD9 /* DrawElementTypeSimplifier */; };
-		908EC69F10B75FF90024EAD9 /* EdgeCollector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62710B75FAC0024EAD9 /* EdgeCollector */; };
-		908EC6A010B75FF90024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62810B75FAC0024EAD9 /* Export */; };
-		908EC6A110B75FF90024EAD9 /* GLObjectsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62910B75FAC0024EAD9 /* GLObjectsVisitor */; };
-		908EC6A210B75FF90024EAD9 /* HalfWayMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62A10B75FAC0024EAD9 /* HalfWayMapGenerator */; };
-		908EC6A310B75FF90024EAD9 /* HighlightMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62B10B75FAC0024EAD9 /* HighlightMapGenerator */; };
-		908EC6A410B75FF90024EAD9 /* IncrementalCompileOperation in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62C10B75FAC0024EAD9 /* IncrementalCompileOperation */; };
-		908EC6A510B75FF90024EAD9 /* IntersectionVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62D10B75FAC0024EAD9 /* IntersectionVisitor */; };
-		908EC6A610B75FF90024EAD9 /* IntersectVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62E10B75FAC0024EAD9 /* IntersectVisitor */; };
-		908EC6A710B75FF90024EAD9 /* LineSegmentIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62F10B75FAC0024EAD9 /* LineSegmentIntersector */; };
-		908EC6A810B75FF90024EAD9 /* OperationArrayFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63010B75FAC0024EAD9 /* OperationArrayFunctor */; };
-		908EC6A910B75FF90024EAD9 /* Optimizer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63110B75FAC0024EAD9 /* Optimizer */; };
-		908EC6AA10B75FF90024EAD9 /* PlaneIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63210B75FAC0024EAD9 /* PlaneIntersector */; };
-		908EC6AB10B75FF90024EAD9 /* PolytopeIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63310B75FAC0024EAD9 /* PolytopeIntersector */; };
-		908EC6AC10B75FF90024EAD9 /* PositionalStateContainer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63410B75FAC0024EAD9 /* PositionalStateContainer */; };
-		908EC6AD10B75FF90024EAD9 /* PrintVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63510B75FAC0024EAD9 /* PrintVisitor */; };
-		908EC6AE10B75FF90024EAD9 /* ReflectionMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63610B75FAC0024EAD9 /* ReflectionMapGenerator */; };
-		908EC6AF10B75FF90024EAD9 /* RenderBin in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63710B75FAC0024EAD9 /* RenderBin */; };
-		908EC6B010B75FF90024EAD9 /* RenderLeaf in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63810B75FAC0024EAD9 /* RenderLeaf */; };
-		908EC6B110B75FF90024EAD9 /* RenderStage in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63910B75FAC0024EAD9 /* RenderStage */; };
-		908EC6B210B75FF90024EAD9 /* ReversePrimitiveFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63A10B75FAC0024EAD9 /* ReversePrimitiveFunctor */; };
-		908EC6B310B75FF90024EAD9 /* SceneGraphBuilder in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63B10B75FAC0024EAD9 /* SceneGraphBuilder */; };
-		908EC6B410B75FF90024EAD9 /* SceneView in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63C10B75FAC0024EAD9 /* SceneView */; };
-		908EC6B510B75FF90024EAD9 /* ShaderGen in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63D10B75FAC0024EAD9 /* ShaderGen */; };
-		908EC6B610B75FF90024EAD9 /* Simplifier in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63E10B75FAC0024EAD9 /* Simplifier */; };
-		908EC6B710B75FF90024EAD9 /* SmoothingVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63F10B75FAC0024EAD9 /* SmoothingVisitor */; };
-		908EC6B810B75FF90024EAD9 /* StateGraph in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64010B75FAC0024EAD9 /* StateGraph */; };
-		908EC6B910B75FF90024EAD9 /* Statistics in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64110B75FAC0024EAD9 /* Statistics */; };
-		908EC6BA10B75FF90024EAD9 /* TangentSpaceGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64210B75FAC0024EAD9 /* TangentSpaceGenerator */; };
-		908EC6BB10B75FF90024EAD9 /* Tessellator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64310B75FAC0024EAD9 /* Tessellator */; };
-		908EC6BC10B75FF90024EAD9 /* TransformAttributeFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64410B75FAC0024EAD9 /* TransformAttributeFunctor */; };
-		908EC6BD10B75FF90024EAD9 /* TransformCallback in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64510B75FAC0024EAD9 /* TransformCallback */; };
-		908EC6BE10B75FF90024EAD9 /* TriStripVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64610B75FAC0024EAD9 /* TriStripVisitor */; };
-		908EC6BF10B75FF90024EAD9 /* UpdateVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64710B75FAC0024EAD9 /* UpdateVisitor */; };
-		908EC6C010B75FF90024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64810B75FAC0024EAD9 /* Version */; };
-		908EC6FC10B776150024EAD9 /* AlphaFunc in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E210B36ACA00E10618 /* AlphaFunc */; };
-		908EC6FD10B776150024EAD9 /* AnimationPath in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E310B36ACA00E10618 /* AnimationPath */; };
-		908EC6FE10B776150024EAD9 /* ApplicationUsage in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E410B36ACA00E10618 /* ApplicationUsage */; };
-		908EC6FF10B776150024EAD9 /* ArgumentParser in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E510B36ACA00E10618 /* ArgumentParser */; };
-		908EC70010B776150024EAD9 /* Array in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E610B36ACA00E10618 /* Array */; };
-		908EC70110B776150024EAD9 /* ArrayDispatchers in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E710B36ACA00E10618 /* ArrayDispatchers */; };
-		908EC70210B776150024EAD9 /* AudioStream in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E810B36ACA00E10618 /* AudioStream */; };
-		908EC70310B776150024EAD9 /* AutoTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E910B36ACA00E10618 /* AutoTransform */; };
-		908EC70410B776150024EAD9 /* Billboard in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EA10B36ACA00E10618 /* Billboard */; };
-		908EC70510B776150024EAD9 /* BlendColor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EB10B36ACA00E10618 /* BlendColor */; };
-		908EC70610B776150024EAD9 /* BlendEquation in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EC10B36ACA00E10618 /* BlendEquation */; };
-		908EC70710B776150024EAD9 /* BlendFunc in Headers */ = {isa = PBXBuildFile; fileRef = 90B906ED10B36ACA00E10618 /* BlendFunc */; };
-		908EC70810B776150024EAD9 /* BoundingBox in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EE10B36ACA00E10618 /* BoundingBox */; };
-		908EC70910B776150024EAD9 /* BoundingSphere in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EF10B36ACA00E10618 /* BoundingSphere */; };
-		908EC70A10B776150024EAD9 /* BoundsChecking in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F010B36ACA00E10618 /* BoundsChecking */; };
-		908EC70B10B776150024EAD9 /* buffered_value in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F110B36ACA00E10618 /* buffered_value */; };
-		908EC70C10B776150024EAD9 /* BufferObject in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F210B36ACA00E10618 /* BufferObject */; };
-		908EC70D10B776150024EAD9 /* Camera in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F310B36ACA00E10618 /* Camera */; };
-		908EC70E10B776150024EAD9 /* CameraNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F410B36ACA00E10618 /* CameraNode */; };
-		908EC70F10B776150024EAD9 /* CameraView in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F510B36ACA00E10618 /* CameraView */; };
-		908EC71010B776150024EAD9 /* ClampColor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F610B36ACA00E10618 /* ClampColor */; };
-		908EC71110B776150024EAD9 /* ClearNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F710B36ACA00E10618 /* ClearNode */; };
-		908EC71210B776150024EAD9 /* ClipNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F810B36ACA00E10618 /* ClipNode */; };
-		908EC71310B776150024EAD9 /* ClipPlane in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F910B36ACA00E10618 /* ClipPlane */; };
-		908EC71410B776150024EAD9 /* ClusterCullingCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FA10B36ACA00E10618 /* ClusterCullingCallback */; };
-		908EC71510B776150024EAD9 /* CollectOccludersVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FB10B36ACA00E10618 /* CollectOccludersVisitor */; };
-		908EC71610B776150024EAD9 /* ColorMask in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FC10B36ACA00E10618 /* ColorMask */; };
-		908EC71710B776150024EAD9 /* ColorMatrix in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FD10B36ACA00E10618 /* ColorMatrix */; };
-		908EC71810B776150024EAD9 /* ComputeBoundsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FE10B36ACA00E10618 /* ComputeBoundsVisitor */; };
-		908EC71910B776150024EAD9 /* ConvexPlanarOccluder in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FF10B36ACA00E10618 /* ConvexPlanarOccluder */; };
-		908EC71A10B776150024EAD9 /* ConvexPlanarPolygon in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070010B36ACA00E10618 /* ConvexPlanarPolygon */; };
-		908EC71B10B776150024EAD9 /* CoordinateSystemNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070110B36ACA00E10618 /* CoordinateSystemNode */; };
-		908EC71C10B776150024EAD9 /* CopyOp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070210B36ACA00E10618 /* CopyOp */; };
-		908EC71D10B776150024EAD9 /* CullFace in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070310B36ACA00E10618 /* CullFace */; };
-		908EC71E10B776150024EAD9 /* CullingSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070410B36ACA00E10618 /* CullingSet */; };
-		908EC71F10B776150024EAD9 /* CullSettings in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070510B36ACA00E10618 /* CullSettings */; };
-		908EC72010B776150024EAD9 /* CullStack in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070610B36ACA00E10618 /* CullStack */; };
-		908EC72110B776150024EAD9 /* DeleteHandler in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070710B36ACA00E10618 /* DeleteHandler */; };
-		908EC72210B776150024EAD9 /* Depth in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070810B36ACA00E10618 /* Depth */; };
-		908EC72310B776150024EAD9 /* DisplaySettings in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070910B36ACA00E10618 /* DisplaySettings */; };
-		908EC72410B776150024EAD9 /* Drawable in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070A10B36ACA00E10618 /* Drawable */; };
-		908EC72510B776150024EAD9 /* DrawPixels in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070B10B36ACA00E10618 /* DrawPixels */; };
-		908EC72610B776150024EAD9 /* Endian in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070C10B36ACA00E10618 /* Endian */; };
-		908EC72710B776150024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070D10B36ACA00E10618 /* Export */; };
-		908EC72810B776150024EAD9 /* fast_back_stack in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070E10B36ACA00E10618 /* fast_back_stack */; };
-		908EC72910B776150024EAD9 /* Fog in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070F10B36ACA00E10618 /* Fog */; };
-		908EC72A10B776150024EAD9 /* FragmentProgram in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071010B36ACA00E10618 /* FragmentProgram */; };
-		908EC72B10B776150024EAD9 /* FrameBufferObject in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071110B36ACA00E10618 /* FrameBufferObject */; };
-		908EC72C10B776150024EAD9 /* FrameStamp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071210B36ACA00E10618 /* FrameStamp */; };
-		908EC72D10B776150024EAD9 /* FrontFace in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071310B36ACA00E10618 /* FrontFace */; };
-		908EC72E10B776150024EAD9 /* Geode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071410B36ACA00E10618 /* Geode */; };
-		908EC72F10B776150024EAD9 /* Geometry in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071510B36ACA00E10618 /* Geometry */; };
-		908EC73010B776150024EAD9 /* GL in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071610B36ACA00E10618 /* GL */; };
-		908EC73110B776150024EAD9 /* GL2Extensions in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071710B36ACA00E10618 /* GL2Extensions */; };
-		908EC73210B776150024EAD9 /* GLBeginEndAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071810B36ACA00E10618 /* GLBeginEndAdapter */; };
-		908EC73310B776150024EAD9 /* GLExtensions in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071910B36ACA00E10618 /* GLExtensions */; };
-		908EC73410B776150024EAD9 /* GLObjects in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071A10B36ACA00E10618 /* GLObjects */; };
-		908EC73510B776150024EAD9 /* GLU in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071B10B36ACA00E10618 /* GLU */; };
-		908EC73610B776150024EAD9 /* GraphicsContext in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071C10B36ACA00E10618 /* GraphicsContext */; };
-		908EC73710B776150024EAD9 /* GraphicsThread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071D10B36ACA00E10618 /* GraphicsThread */; };
-		908EC73810B776150024EAD9 /* Group in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071E10B36ACA00E10618 /* Group */; };
-		908EC73910B776150024EAD9 /* Hint in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071F10B36ACA00E10618 /* Hint */; };
-		908EC73A10B776150024EAD9 /* Image in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072010B36ACA00E10618 /* Image */; };
-		908EC73B10B776150024EAD9 /* ImageSequence in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072110B36ACA00E10618 /* ImageSequence */; };
-		908EC73C10B776150024EAD9 /* ImageStream in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072210B36ACA00E10618 /* ImageStream */; };
-		908EC73D10B776150024EAD9 /* ImageUtils in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072310B36ACA00E10618 /* ImageUtils */; };
-		908EC73E10B776150024EAD9 /* io_utils in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072410B36ACA00E10618 /* io_utils */; };
-		908EC73F10B776150024EAD9 /* KdTree in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072510B36ACA00E10618 /* KdTree */; };
-		908EC74010B776150024EAD9 /* Light in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072610B36ACA00E10618 /* Light */; };
-		908EC74110B776150024EAD9 /* LightModel in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072710B36ACA00E10618 /* LightModel */; };
-		908EC74210B776150024EAD9 /* LightSource in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072810B36ACA00E10618 /* LightSource */; };
-		908EC74310B776150024EAD9 /* LineSegment in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072910B36ACA00E10618 /* LineSegment */; };
-		908EC74410B776150024EAD9 /* LineStipple in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072A10B36ACA00E10618 /* LineStipple */; };
-		908EC74510B776150024EAD9 /* LineWidth in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072B10B36ACA00E10618 /* LineWidth */; };
-		908EC74610B776150024EAD9 /* LOD in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072C10B36ACA00E10618 /* LOD */; };
-		908EC74710B776150024EAD9 /* LogicOp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072D10B36ACA00E10618 /* LogicOp */; };
-		908EC74810B776150024EAD9 /* Material in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072E10B36ACA00E10618 /* Material */; };
-		908EC74910B776150024EAD9 /* Math in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072F10B36ACA00E10618 /* Math */; };
-		908EC74A10B776150024EAD9 /* Matrix in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073010B36ACA00E10618 /* Matrix */; };
-		908EC74B10B776150024EAD9 /* Matrixd in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073110B36ACA00E10618 /* Matrixd */; };
-		908EC74C10B776150024EAD9 /* Matrixf in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073210B36ACA00E10618 /* Matrixf */; };
-		908EC74D10B776150024EAD9 /* MatrixTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073310B36ACA00E10618 /* MatrixTransform */; };
-		908EC74E10B776150024EAD9 /* MixinVector in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073410B36ACA00E10618 /* MixinVector */; };
-		908EC74F10B776150024EAD9 /* Multisample in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073510B36ACA00E10618 /* Multisample */; };
-		908EC75010B776150024EAD9 /* Node in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073610B36ACA00E10618 /* Node */; };
-		908EC75110B776150024EAD9 /* NodeCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073710B36ACA00E10618 /* NodeCallback */; };
-		908EC75210B776150024EAD9 /* NodeTrackerCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073810B36ACA00E10618 /* NodeTrackerCallback */; };
-		908EC75310B776150024EAD9 /* NodeVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073910B36ACA00E10618 /* NodeVisitor */; };
-		908EC75410B776150024EAD9 /* Notify in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073A10B36ACA00E10618 /* Notify */; };
-		908EC75510B776150024EAD9 /* Object in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073B10B36ACA00E10618 /* Object */; };
-		908EC75610B776150024EAD9 /* observer_ptr in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073C10B36ACA00E10618 /* observer_ptr */; };
-		908EC75710B776150024EAD9 /* OccluderNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073D10B36ACA00E10618 /* OccluderNode */; };
-		908EC75810B776150024EAD9 /* OcclusionQueryNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073E10B36ACA00E10618 /* OcclusionQueryNode */; };
-		908EC75910B776150024EAD9 /* OperationThread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073F10B36ACA00E10618 /* OperationThread */; };
-		908EC75A10B776150024EAD9 /* PagedLOD in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074010B36ACA00E10618 /* PagedLOD */; };
-		908EC75B10B776150024EAD9 /* Plane in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074110B36ACA00E10618 /* Plane */; };
-		908EC75C10B776150024EAD9 /* Point in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074210B36ACA00E10618 /* Point */; };
-		908EC75D10B776150024EAD9 /* PointSprite in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074310B36ACA00E10618 /* PointSprite */; };
-		908EC75E10B776150024EAD9 /* PolygonMode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074410B36ACA00E10618 /* PolygonMode */; };
-		908EC75F10B776150024EAD9 /* PolygonOffset in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074510B36ACA00E10618 /* PolygonOffset */; };
-		908EC76010B776150024EAD9 /* PolygonStipple in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074610B36ACA00E10618 /* PolygonStipple */; };
-		908EC76110B776150024EAD9 /* Polytope in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074710B36ACA00E10618 /* Polytope */; };
-		908EC76210B776150024EAD9 /* PositionAttitudeTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074810B36ACA00E10618 /* PositionAttitudeTransform */; };
-		908EC76310B776150024EAD9 /* PrimitiveSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074910B36ACA00E10618 /* PrimitiveSet */; };
-		908EC76410B776150024EAD9 /* Program in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074A10B36ACA00E10618 /* Program */; };
-		908EC76510B776150024EAD9 /* Projection in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074B10B36ACA00E10618 /* Projection */; };
-		908EC76610B776150024EAD9 /* ProxyNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074C10B36ACA00E10618 /* ProxyNode */; };
-		908EC76710B776150024EAD9 /* Quat in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074D10B36ACA00E10618 /* Quat */; };
-		908EC76810B776150024EAD9 /* ref_ptr in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074E10B36ACA00E10618 /* ref_ptr */; };
-		908EC76910B776150024EAD9 /* Referenced in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074F10B36ACA00E10618 /* Referenced */; };
-		908EC76A10B776150024EAD9 /* RenderInfo in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075010B36ACA00E10618 /* RenderInfo */; };
-		908EC76B10B776150024EAD9 /* Scissor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075110B36ACA00E10618 /* Scissor */; };
-		908EC76C10B776150024EAD9 /* Sequence in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075210B36ACA00E10618 /* Sequence */; };
-		908EC76D10B776150024EAD9 /* ShadeModel in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075310B36ACA00E10618 /* ShadeModel */; };
-		908EC76E10B776150024EAD9 /* Shader in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075410B36ACA00E10618 /* Shader */; };
-		908EC76F10B776150024EAD9 /* ShadowVolumeOccluder in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075510B36ACA00E10618 /* ShadowVolumeOccluder */; };
-		908EC77010B776150024EAD9 /* Shape in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075610B36ACA00E10618 /* Shape */; };
-		908EC77110B776150024EAD9 /* ShapeDrawable in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075710B36ACA00E10618 /* ShapeDrawable */; };
-		908EC77210B776150024EAD9 /* State in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075810B36ACA00E10618 /* State */; };
-		908EC77310B776150024EAD9 /* StateAttribute in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075910B36ACA00E10618 /* StateAttribute */; };
-		908EC77410B776150024EAD9 /* StateAttributeCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075A10B36ACA00E10618 /* StateAttributeCallback */; };
-		908EC77510B776150024EAD9 /* StateSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075B10B36ACA00E10618 /* StateSet */; };
-		908EC77610B776150024EAD9 /* Stats in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075C10B36ACA00E10618 /* Stats */; };
-		908EC77710B776150024EAD9 /* Stencil in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075D10B36ACA00E10618 /* Stencil */; };
-		908EC77810B776150024EAD9 /* StencilTwoSided in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075E10B36ACA00E10618 /* StencilTwoSided */; };
-		908EC77910B776150024EAD9 /* Switch in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075F10B36ACA00E10618 /* Switch */; };
-		908EC77A10B776150024EAD9 /* TemplatePrimitiveFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076010B36ACA00E10618 /* TemplatePrimitiveFunctor */; };
-		908EC77B10B776150024EAD9 /* TexEnv in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076110B36ACA00E10618 /* TexEnv */; };
-		908EC77C10B776150024EAD9 /* TexEnvCombine in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076210B36ACA00E10618 /* TexEnvCombine */; };
-		908EC77D10B776150024EAD9 /* TexEnvFilter in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076310B36ACA00E10618 /* TexEnvFilter */; };
-		908EC77E10B776150024EAD9 /* TexGen in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076410B36ACA00E10618 /* TexGen */; };
-		908EC77F10B776150024EAD9 /* TexGenNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076510B36ACA00E10618 /* TexGenNode */; };
-		908EC78010B776150024EAD9 /* TexMat in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076610B36ACA00E10618 /* TexMat */; };
-		908EC78110B776150024EAD9 /* Texture in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076710B36ACA00E10618 /* Texture */; };
-		908EC78210B776150024EAD9 /* Texture1D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076810B36ACA00E10618 /* Texture1D */; };
-		908EC78310B776150024EAD9 /* Texture2D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076910B36ACA00E10618 /* Texture2D */; };
-		908EC78410B776150024EAD9 /* Texture2DArray in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076A10B36ACA00E10618 /* Texture2DArray */; };
-		908EC78510B776150024EAD9 /* Texture3D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076B10B36ACA00E10618 /* Texture3D */; };
-		908EC78610B776150024EAD9 /* TextureCubeMap in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076C10B36ACA00E10618 /* TextureCubeMap */; };
-		908EC78710B776150024EAD9 /* TextureRectangle in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076D10B36ACA00E10618 /* TextureRectangle */; };
-		908EC78810B776150024EAD9 /* Timer in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076E10B36ACA00E10618 /* Timer */; };
-		908EC78910B776150024EAD9 /* TransferFunction in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076F10B36ACA00E10618 /* TransferFunction */; };
-		908EC78A10B776150024EAD9 /* Transform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077010B36ACA00E10618 /* Transform */; };
-		908EC78B10B776150024EAD9 /* TriangleFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077110B36ACA00E10618 /* TriangleFunctor */; };
-		908EC78C10B776150024EAD9 /* TriangleIndexFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077210B36ACA00E10618 /* TriangleIndexFunctor */; };
-		908EC78D10B776150024EAD9 /* Uniform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077310B36ACA00E10618 /* Uniform */; };
-		908EC78E10B776150024EAD9 /* Vec2 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077410B36ACA00E10618 /* Vec2 */; };
-		908EC78F10B776150024EAD9 /* Vec2b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077510B36ACA00E10618 /* Vec2b */; };
-		908EC79010B776150024EAD9 /* Vec2d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077610B36ACA00E10618 /* Vec2d */; };
-		908EC79110B776150024EAD9 /* Vec2f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077710B36ACA00E10618 /* Vec2f */; };
-		908EC79210B776150024EAD9 /* Vec2s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077810B36ACA00E10618 /* Vec2s */; };
-		908EC79310B776150024EAD9 /* Vec3 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077910B36ACA00E10618 /* Vec3 */; };
-		908EC79410B776150024EAD9 /* Vec3b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077A10B36ACA00E10618 /* Vec3b */; };
-		908EC79510B776150024EAD9 /* Vec3d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077B10B36ACA00E10618 /* Vec3d */; };
-		908EC79610B776150024EAD9 /* Vec3f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077C10B36ACA00E10618 /* Vec3f */; };
-		908EC79710B776150024EAD9 /* Vec3s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077D10B36ACA00E10618 /* Vec3s */; };
-		908EC79810B776150024EAD9 /* Vec4 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077E10B36ACA00E10618 /* Vec4 */; };
-		908EC79910B776150024EAD9 /* Vec4b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077F10B36ACA00E10618 /* Vec4b */; };
-		908EC79A10B776150024EAD9 /* Vec4d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078010B36ACA00E10618 /* Vec4d */; };
-		908EC79B10B776150024EAD9 /* Vec4f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078110B36ACA00E10618 /* Vec4f */; };
-		908EC79C10B776150024EAD9 /* Vec4s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078210B36ACA00E10618 /* Vec4s */; };
-		908EC79D10B776150024EAD9 /* Vec4ub in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078310B36ACA00E10618 /* Vec4ub */; };
-		908EC79E10B776150024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078410B36ACA00E10618 /* Version */; };
-		908EC79F10B776150024EAD9 /* VertexProgram in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078510B36ACA00E10618 /* VertexProgram */; };
-		908EC7A010B776150024EAD9 /* View in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078610B36ACA00E10618 /* View */; };
-		908EC7A110B776150024EAD9 /* Viewport in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078710B36ACA00E10618 /* Viewport */; };
-		908EC88410B78B4D0024EAD9 /* Archive in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86510B78B3F0024EAD9 /* Archive */; };
-		908EC88510B78B4D0024EAD9 /* AuthenticationMap in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86610B78B3F0024EAD9 /* AuthenticationMap */; };
-		908EC88610B78B4D0024EAD9 /* Callbacks in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86710B78B3F0024EAD9 /* Callbacks */; };
-		908EC88710B78B4D0024EAD9 /* ConvertUTF in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86810B78B3F0024EAD9 /* ConvertUTF */; };
-		908EC88810B78B4D0024EAD9 /* DatabasePager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86910B78B3F0024EAD9 /* DatabasePager */; };
-		908EC88910B78B4D0024EAD9 /* DatabaseRevisions in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86A10B78B3F0024EAD9 /* DatabaseRevisions */; };
-		908EC88A10B78B4D0024EAD9 /* DotOsgWrapper in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86B10B78B3F0024EAD9 /* DotOsgWrapper */; };
-		908EC88B10B78B4D0024EAD9 /* DynamicLibrary in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86C10B78B3F0024EAD9 /* DynamicLibrary */; };
-		908EC88C10B78B4D0024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86D10B78B3F0024EAD9 /* Export */; };
-		908EC88D10B78B4D0024EAD9 /* Field in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86E10B78B3F0024EAD9 /* Field */; };
-		908EC88E10B78B4D0024EAD9 /* FieldReader in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86F10B78B3F0024EAD9 /* FieldReader */; };
-		908EC88F10B78B4D0024EAD9 /* FieldReaderIterator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87010B78B3F0024EAD9 /* FieldReaderIterator */; };
-		908EC89010B78B4D0024EAD9 /* FileCache in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87110B78B3F0024EAD9 /* FileCache */; };
-		908EC89110B78B4D0024EAD9 /* FileNameUtils in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87210B78B3F0024EAD9 /* FileNameUtils */; };
-		908EC89210B78B4D0024EAD9 /* FileUtils in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87310B78B3F0024EAD9 /* FileUtils */; };
-		908EC89310B78B4D0024EAD9 /* fstream in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87410B78B3F0024EAD9 /* fstream */; };
-		908EC89410B78B4D0024EAD9 /* ImageOptions in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87510B78B3F0024EAD9 /* ImageOptions */; };
-		908EC89510B78B4D0024EAD9 /* ImagePager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87610B78B3F0024EAD9 /* ImagePager */; };
-		908EC89610B78B4D0024EAD9 /* Input in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87710B78B3F0024EAD9 /* Input */; };
-		908EC89710B78B4D0024EAD9 /* Options in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87810B78B3F0024EAD9 /* Options */; };
-		908EC89810B78B4D0024EAD9 /* Output in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87910B78B3F0024EAD9 /* Output */; };
-		908EC89910B78B4D0024EAD9 /* ParameterOutput in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87A10B78B3F0024EAD9 /* ParameterOutput */; };
-		908EC89A10B78B4D0024EAD9 /* PluginQuery in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87B10B78B3F0024EAD9 /* PluginQuery */; };
-		908EC89B10B78B4D0024EAD9 /* ReaderWriter in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87C10B78B3F0024EAD9 /* ReaderWriter */; };
-		908EC89C10B78B4D0024EAD9 /* ReadFile in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87D10B78B3F0024EAD9 /* ReadFile */; };
-		908EC89D10B78B4D0024EAD9 /* Registry in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87E10B78B3F0024EAD9 /* Registry */; };
-		908EC89E10B78B4D0024EAD9 /* Serializer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87F10B78B3F0024EAD9 /* Serializer */; };
-		908EC89F10B78B4D0024EAD9 /* SharedStateManager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88010B78B3F0024EAD9 /* SharedStateManager */; };
-		908EC8A010B78B4D0024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88110B78B3F0024EAD9 /* Version */; };
-		908EC8A110B78B4D0024EAD9 /* WriteFile in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88210B78B3F0024EAD9 /* WriteFile */; };
-		908EC8A210B78B4D0024EAD9 /* XmlParser in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88310B78B3F0024EAD9 /* XmlParser */; };
+		908EC69910B75FF90024EAD9 /* ConvertVec in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62110B75FAC0024EAD9 /* ConvertVec */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69A10B75FF90024EAD9 /* CubeMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62210B75FAC0024EAD9 /* CubeMapGenerator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69B10B75FF90024EAD9 /* CullVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62310B75FAC0024EAD9 /* CullVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69C10B75FF90024EAD9 /* DelaunayTriangulator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62410B75FAC0024EAD9 /* DelaunayTriangulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69D10B75FF90024EAD9 /* DisplayRequirementsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62510B75FAC0024EAD9 /* DisplayRequirementsVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69E10B75FF90024EAD9 /* DrawElementTypeSimplifier in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62610B75FAC0024EAD9 /* DrawElementTypeSimplifier */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC69F10B75FF90024EAD9 /* EdgeCollector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62710B75FAC0024EAD9 /* EdgeCollector */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A010B75FF90024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62810B75FAC0024EAD9 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A110B75FF90024EAD9 /* GLObjectsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62910B75FAC0024EAD9 /* GLObjectsVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A210B75FF90024EAD9 /* HalfWayMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62A10B75FAC0024EAD9 /* HalfWayMapGenerator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A310B75FF90024EAD9 /* HighlightMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62B10B75FAC0024EAD9 /* HighlightMapGenerator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A410B75FF90024EAD9 /* IncrementalCompileOperation in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62C10B75FAC0024EAD9 /* IncrementalCompileOperation */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A510B75FF90024EAD9 /* IntersectionVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62D10B75FAC0024EAD9 /* IntersectionVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A610B75FF90024EAD9 /* IntersectVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62E10B75FAC0024EAD9 /* IntersectVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A710B75FF90024EAD9 /* LineSegmentIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC62F10B75FAC0024EAD9 /* LineSegmentIntersector */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A810B75FF90024EAD9 /* OperationArrayFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63010B75FAC0024EAD9 /* OperationArrayFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6A910B75FF90024EAD9 /* Optimizer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63110B75FAC0024EAD9 /* Optimizer */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AA10B75FF90024EAD9 /* PlaneIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63210B75FAC0024EAD9 /* PlaneIntersector */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AB10B75FF90024EAD9 /* PolytopeIntersector in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63310B75FAC0024EAD9 /* PolytopeIntersector */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AC10B75FF90024EAD9 /* PositionalStateContainer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63410B75FAC0024EAD9 /* PositionalStateContainer */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AD10B75FF90024EAD9 /* PrintVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63510B75FAC0024EAD9 /* PrintVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AE10B75FF90024EAD9 /* ReflectionMapGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63610B75FAC0024EAD9 /* ReflectionMapGenerator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6AF10B75FF90024EAD9 /* RenderBin in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63710B75FAC0024EAD9 /* RenderBin */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B010B75FF90024EAD9 /* RenderLeaf in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63810B75FAC0024EAD9 /* RenderLeaf */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B110B75FF90024EAD9 /* RenderStage in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63910B75FAC0024EAD9 /* RenderStage */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B210B75FF90024EAD9 /* ReversePrimitiveFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63A10B75FAC0024EAD9 /* ReversePrimitiveFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B310B75FF90024EAD9 /* SceneGraphBuilder in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63B10B75FAC0024EAD9 /* SceneGraphBuilder */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B410B75FF90024EAD9 /* SceneView in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63C10B75FAC0024EAD9 /* SceneView */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B510B75FF90024EAD9 /* ShaderGen in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63D10B75FAC0024EAD9 /* ShaderGen */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B610B75FF90024EAD9 /* Simplifier in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63E10B75FAC0024EAD9 /* Simplifier */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B710B75FF90024EAD9 /* SmoothingVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC63F10B75FAC0024EAD9 /* SmoothingVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B810B75FF90024EAD9 /* StateGraph in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64010B75FAC0024EAD9 /* StateGraph */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6B910B75FF90024EAD9 /* Statistics in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64110B75FAC0024EAD9 /* Statistics */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BA10B75FF90024EAD9 /* TangentSpaceGenerator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64210B75FAC0024EAD9 /* TangentSpaceGenerator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BB10B75FF90024EAD9 /* Tessellator in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64310B75FAC0024EAD9 /* Tessellator */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BC10B75FF90024EAD9 /* TransformAttributeFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64410B75FAC0024EAD9 /* TransformAttributeFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BD10B75FF90024EAD9 /* TransformCallback in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64510B75FAC0024EAD9 /* TransformCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BE10B75FF90024EAD9 /* TriStripVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64610B75FAC0024EAD9 /* TriStripVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6BF10B75FF90024EAD9 /* UpdateVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64710B75FAC0024EAD9 /* UpdateVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6C010B75FF90024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 908EC64810B75FAC0024EAD9 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6FC10B776150024EAD9 /* AlphaFunc in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E210B36ACA00E10618 /* AlphaFunc */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6FD10B776150024EAD9 /* AnimationPath in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E310B36ACA00E10618 /* AnimationPath */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6FE10B776150024EAD9 /* ApplicationUsage in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E410B36ACA00E10618 /* ApplicationUsage */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC6FF10B776150024EAD9 /* ArgumentParser in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E510B36ACA00E10618 /* ArgumentParser */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70010B776150024EAD9 /* Array in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E610B36ACA00E10618 /* Array */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70110B776150024EAD9 /* ArrayDispatchers in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E710B36ACA00E10618 /* ArrayDispatchers */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70210B776150024EAD9 /* AudioStream in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E810B36ACA00E10618 /* AudioStream */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70310B776150024EAD9 /* AutoTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B906E910B36ACA00E10618 /* AutoTransform */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70410B776150024EAD9 /* Billboard in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EA10B36ACA00E10618 /* Billboard */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70510B776150024EAD9 /* BlendColor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EB10B36ACA00E10618 /* BlendColor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70610B776150024EAD9 /* BlendEquation in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EC10B36ACA00E10618 /* BlendEquation */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70710B776150024EAD9 /* BlendFunc in Headers */ = {isa = PBXBuildFile; fileRef = 90B906ED10B36ACA00E10618 /* BlendFunc */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70810B776150024EAD9 /* BoundingBox in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EE10B36ACA00E10618 /* BoundingBox */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70910B776150024EAD9 /* BoundingSphere in Headers */ = {isa = PBXBuildFile; fileRef = 90B906EF10B36ACA00E10618 /* BoundingSphere */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70A10B776150024EAD9 /* BoundsChecking in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F010B36ACA00E10618 /* BoundsChecking */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70B10B776150024EAD9 /* buffered_value in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F110B36ACA00E10618 /* buffered_value */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70C10B776150024EAD9 /* BufferObject in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F210B36ACA00E10618 /* BufferObject */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70D10B776150024EAD9 /* Camera in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F310B36ACA00E10618 /* Camera */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70E10B776150024EAD9 /* CameraNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F410B36ACA00E10618 /* CameraNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC70F10B776150024EAD9 /* CameraView in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F510B36ACA00E10618 /* CameraView */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71010B776150024EAD9 /* ClampColor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F610B36ACA00E10618 /* ClampColor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71110B776150024EAD9 /* ClearNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F710B36ACA00E10618 /* ClearNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71210B776150024EAD9 /* ClipNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F810B36ACA00E10618 /* ClipNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71310B776150024EAD9 /* ClipPlane in Headers */ = {isa = PBXBuildFile; fileRef = 90B906F910B36ACA00E10618 /* ClipPlane */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71410B776150024EAD9 /* ClusterCullingCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FA10B36ACA00E10618 /* ClusterCullingCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71510B776150024EAD9 /* CollectOccludersVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FB10B36ACA00E10618 /* CollectOccludersVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71610B776150024EAD9 /* ColorMask in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FC10B36ACA00E10618 /* ColorMask */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71710B776150024EAD9 /* ColorMatrix in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FD10B36ACA00E10618 /* ColorMatrix */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71810B776150024EAD9 /* ComputeBoundsVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FE10B36ACA00E10618 /* ComputeBoundsVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71910B776150024EAD9 /* ConvexPlanarOccluder in Headers */ = {isa = PBXBuildFile; fileRef = 90B906FF10B36ACA00E10618 /* ConvexPlanarOccluder */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71A10B776150024EAD9 /* ConvexPlanarPolygon in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070010B36ACA00E10618 /* ConvexPlanarPolygon */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71B10B776150024EAD9 /* CoordinateSystemNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070110B36ACA00E10618 /* CoordinateSystemNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71C10B776150024EAD9 /* CopyOp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070210B36ACA00E10618 /* CopyOp */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71D10B776150024EAD9 /* CullFace in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070310B36ACA00E10618 /* CullFace */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71E10B776150024EAD9 /* CullingSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070410B36ACA00E10618 /* CullingSet */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC71F10B776150024EAD9 /* CullSettings in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070510B36ACA00E10618 /* CullSettings */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72010B776150024EAD9 /* CullStack in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070610B36ACA00E10618 /* CullStack */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72110B776150024EAD9 /* DeleteHandler in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070710B36ACA00E10618 /* DeleteHandler */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72210B776150024EAD9 /* Depth in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070810B36ACA00E10618 /* Depth */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72310B776150024EAD9 /* DisplaySettings in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070910B36ACA00E10618 /* DisplaySettings */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72410B776150024EAD9 /* Drawable in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070A10B36ACA00E10618 /* Drawable */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72510B776150024EAD9 /* DrawPixels in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070B10B36ACA00E10618 /* DrawPixels */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72610B776150024EAD9 /* Endian in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070C10B36ACA00E10618 /* Endian */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72710B776150024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070D10B36ACA00E10618 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72810B776150024EAD9 /* fast_back_stack in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070E10B36ACA00E10618 /* fast_back_stack */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72910B776150024EAD9 /* Fog in Headers */ = {isa = PBXBuildFile; fileRef = 90B9070F10B36ACA00E10618 /* Fog */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72A10B776150024EAD9 /* FragmentProgram in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071010B36ACA00E10618 /* FragmentProgram */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72B10B776150024EAD9 /* FrameBufferObject in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071110B36ACA00E10618 /* FrameBufferObject */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72C10B776150024EAD9 /* FrameStamp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071210B36ACA00E10618 /* FrameStamp */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72D10B776150024EAD9 /* FrontFace in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071310B36ACA00E10618 /* FrontFace */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72E10B776150024EAD9 /* Geode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071410B36ACA00E10618 /* Geode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC72F10B776150024EAD9 /* Geometry in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071510B36ACA00E10618 /* Geometry */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73010B776150024EAD9 /* GL in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071610B36ACA00E10618 /* GL */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73110B776150024EAD9 /* GL2Extensions in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071710B36ACA00E10618 /* GL2Extensions */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73210B776150024EAD9 /* GLBeginEndAdapter in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071810B36ACA00E10618 /* GLBeginEndAdapter */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73310B776150024EAD9 /* GLExtensions in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071910B36ACA00E10618 /* GLExtensions */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73410B776150024EAD9 /* GLObjects in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071A10B36ACA00E10618 /* GLObjects */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73510B776150024EAD9 /* GLU in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071B10B36ACA00E10618 /* GLU */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73610B776150024EAD9 /* GraphicsContext in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071C10B36ACA00E10618 /* GraphicsContext */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73710B776150024EAD9 /* GraphicsThread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071D10B36ACA00E10618 /* GraphicsThread */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73810B776150024EAD9 /* Group in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071E10B36ACA00E10618 /* Group */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73910B776150024EAD9 /* Hint in Headers */ = {isa = PBXBuildFile; fileRef = 90B9071F10B36ACA00E10618 /* Hint */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73A10B776150024EAD9 /* Image in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072010B36ACA00E10618 /* Image */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73B10B776150024EAD9 /* ImageSequence in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072110B36ACA00E10618 /* ImageSequence */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73C10B776150024EAD9 /* ImageStream in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072210B36ACA00E10618 /* ImageStream */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73D10B776150024EAD9 /* ImageUtils in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072310B36ACA00E10618 /* ImageUtils */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73E10B776150024EAD9 /* io_utils in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072410B36ACA00E10618 /* io_utils */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC73F10B776150024EAD9 /* KdTree in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072510B36ACA00E10618 /* KdTree */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74010B776150024EAD9 /* Light in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072610B36ACA00E10618 /* Light */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74110B776150024EAD9 /* LightModel in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072710B36ACA00E10618 /* LightModel */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74210B776150024EAD9 /* LightSource in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072810B36ACA00E10618 /* LightSource */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74310B776150024EAD9 /* LineSegment in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072910B36ACA00E10618 /* LineSegment */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74410B776150024EAD9 /* LineStipple in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072A10B36ACA00E10618 /* LineStipple */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74510B776150024EAD9 /* LineWidth in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072B10B36ACA00E10618 /* LineWidth */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74610B776150024EAD9 /* LOD in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072C10B36ACA00E10618 /* LOD */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74710B776150024EAD9 /* LogicOp in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072D10B36ACA00E10618 /* LogicOp */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74810B776150024EAD9 /* Material in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072E10B36ACA00E10618 /* Material */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74910B776150024EAD9 /* Math in Headers */ = {isa = PBXBuildFile; fileRef = 90B9072F10B36ACA00E10618 /* Math */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74A10B776150024EAD9 /* Matrix in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073010B36ACA00E10618 /* Matrix */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74B10B776150024EAD9 /* Matrixd in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073110B36ACA00E10618 /* Matrixd */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74C10B776150024EAD9 /* Matrixf in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073210B36ACA00E10618 /* Matrixf */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74D10B776150024EAD9 /* MatrixTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073310B36ACA00E10618 /* MatrixTransform */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74E10B776150024EAD9 /* MixinVector in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073410B36ACA00E10618 /* MixinVector */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC74F10B776150024EAD9 /* Multisample in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073510B36ACA00E10618 /* Multisample */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75010B776150024EAD9 /* Node in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073610B36ACA00E10618 /* Node */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75110B776150024EAD9 /* NodeCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073710B36ACA00E10618 /* NodeCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75210B776150024EAD9 /* NodeTrackerCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073810B36ACA00E10618 /* NodeTrackerCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75310B776150024EAD9 /* NodeVisitor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073910B36ACA00E10618 /* NodeVisitor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75410B776150024EAD9 /* Notify in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073A10B36ACA00E10618 /* Notify */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75510B776150024EAD9 /* Object in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073B10B36ACA00E10618 /* Object */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75610B776150024EAD9 /* observer_ptr in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073C10B36ACA00E10618 /* observer_ptr */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75710B776150024EAD9 /* OccluderNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073D10B36ACA00E10618 /* OccluderNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75810B776150024EAD9 /* OcclusionQueryNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073E10B36ACA00E10618 /* OcclusionQueryNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75910B776150024EAD9 /* OperationThread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9073F10B36ACA00E10618 /* OperationThread */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75A10B776150024EAD9 /* PagedLOD in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074010B36ACA00E10618 /* PagedLOD */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75B10B776150024EAD9 /* Plane in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074110B36ACA00E10618 /* Plane */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75C10B776150024EAD9 /* Point in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074210B36ACA00E10618 /* Point */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75D10B776150024EAD9 /* PointSprite in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074310B36ACA00E10618 /* PointSprite */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75E10B776150024EAD9 /* PolygonMode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074410B36ACA00E10618 /* PolygonMode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC75F10B776150024EAD9 /* PolygonOffset in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074510B36ACA00E10618 /* PolygonOffset */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76010B776150024EAD9 /* PolygonStipple in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074610B36ACA00E10618 /* PolygonStipple */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76110B776150024EAD9 /* Polytope in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074710B36ACA00E10618 /* Polytope */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76210B776150024EAD9 /* PositionAttitudeTransform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074810B36ACA00E10618 /* PositionAttitudeTransform */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76310B776150024EAD9 /* PrimitiveSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074910B36ACA00E10618 /* PrimitiveSet */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76410B776150024EAD9 /* Program in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074A10B36ACA00E10618 /* Program */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76510B776150024EAD9 /* Projection in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074B10B36ACA00E10618 /* Projection */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76610B776150024EAD9 /* ProxyNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074C10B36ACA00E10618 /* ProxyNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76710B776150024EAD9 /* Quat in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074D10B36ACA00E10618 /* Quat */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76810B776150024EAD9 /* ref_ptr in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074E10B36ACA00E10618 /* ref_ptr */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76910B776150024EAD9 /* Referenced in Headers */ = {isa = PBXBuildFile; fileRef = 90B9074F10B36ACA00E10618 /* Referenced */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76A10B776150024EAD9 /* RenderInfo in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075010B36ACA00E10618 /* RenderInfo */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76B10B776150024EAD9 /* Scissor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075110B36ACA00E10618 /* Scissor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76C10B776150024EAD9 /* Sequence in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075210B36ACA00E10618 /* Sequence */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76D10B776150024EAD9 /* ShadeModel in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075310B36ACA00E10618 /* ShadeModel */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76E10B776150024EAD9 /* Shader in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075410B36ACA00E10618 /* Shader */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC76F10B776150024EAD9 /* ShadowVolumeOccluder in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075510B36ACA00E10618 /* ShadowVolumeOccluder */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77010B776150024EAD9 /* Shape in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075610B36ACA00E10618 /* Shape */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77110B776150024EAD9 /* ShapeDrawable in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075710B36ACA00E10618 /* ShapeDrawable */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77210B776150024EAD9 /* State in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075810B36ACA00E10618 /* State */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77310B776150024EAD9 /* StateAttribute in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075910B36ACA00E10618 /* StateAttribute */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77410B776150024EAD9 /* StateAttributeCallback in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075A10B36ACA00E10618 /* StateAttributeCallback */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77510B776150024EAD9 /* StateSet in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075B10B36ACA00E10618 /* StateSet */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77610B776150024EAD9 /* Stats in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075C10B36ACA00E10618 /* Stats */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77710B776150024EAD9 /* Stencil in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075D10B36ACA00E10618 /* Stencil */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77810B776150024EAD9 /* StencilTwoSided in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075E10B36ACA00E10618 /* StencilTwoSided */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77910B776150024EAD9 /* Switch in Headers */ = {isa = PBXBuildFile; fileRef = 90B9075F10B36ACA00E10618 /* Switch */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77A10B776150024EAD9 /* TemplatePrimitiveFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076010B36ACA00E10618 /* TemplatePrimitiveFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77B10B776150024EAD9 /* TexEnv in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076110B36ACA00E10618 /* TexEnv */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77C10B776150024EAD9 /* TexEnvCombine in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076210B36ACA00E10618 /* TexEnvCombine */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77D10B776150024EAD9 /* TexEnvFilter in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076310B36ACA00E10618 /* TexEnvFilter */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77E10B776150024EAD9 /* TexGen in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076410B36ACA00E10618 /* TexGen */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC77F10B776150024EAD9 /* TexGenNode in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076510B36ACA00E10618 /* TexGenNode */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78010B776150024EAD9 /* TexMat in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076610B36ACA00E10618 /* TexMat */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78110B776150024EAD9 /* Texture in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076710B36ACA00E10618 /* Texture */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78210B776150024EAD9 /* Texture1D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076810B36ACA00E10618 /* Texture1D */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78310B776150024EAD9 /* Texture2D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076910B36ACA00E10618 /* Texture2D */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78410B776150024EAD9 /* Texture2DArray in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076A10B36ACA00E10618 /* Texture2DArray */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78510B776150024EAD9 /* Texture3D in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076B10B36ACA00E10618 /* Texture3D */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78610B776150024EAD9 /* TextureCubeMap in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076C10B36ACA00E10618 /* TextureCubeMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78710B776150024EAD9 /* TextureRectangle in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076D10B36ACA00E10618 /* TextureRectangle */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78810B776150024EAD9 /* Timer in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076E10B36ACA00E10618 /* Timer */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78910B776150024EAD9 /* TransferFunction in Headers */ = {isa = PBXBuildFile; fileRef = 90B9076F10B36ACA00E10618 /* TransferFunction */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78A10B776150024EAD9 /* Transform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077010B36ACA00E10618 /* Transform */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78B10B776150024EAD9 /* TriangleFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077110B36ACA00E10618 /* TriangleFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78C10B776150024EAD9 /* TriangleIndexFunctor in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077210B36ACA00E10618 /* TriangleIndexFunctor */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78D10B776150024EAD9 /* Uniform in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077310B36ACA00E10618 /* Uniform */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78E10B776150024EAD9 /* Vec2 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077410B36ACA00E10618 /* Vec2 */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC78F10B776150024EAD9 /* Vec2b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077510B36ACA00E10618 /* Vec2b */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79010B776150024EAD9 /* Vec2d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077610B36ACA00E10618 /* Vec2d */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79110B776150024EAD9 /* Vec2f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077710B36ACA00E10618 /* Vec2f */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79210B776150024EAD9 /* Vec2s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077810B36ACA00E10618 /* Vec2s */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79310B776150024EAD9 /* Vec3 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077910B36ACA00E10618 /* Vec3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79410B776150024EAD9 /* Vec3b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077A10B36ACA00E10618 /* Vec3b */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79510B776150024EAD9 /* Vec3d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077B10B36ACA00E10618 /* Vec3d */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79610B776150024EAD9 /* Vec3f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077C10B36ACA00E10618 /* Vec3f */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79710B776150024EAD9 /* Vec3s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077D10B36ACA00E10618 /* Vec3s */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79810B776150024EAD9 /* Vec4 in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077E10B36ACA00E10618 /* Vec4 */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79910B776150024EAD9 /* Vec4b in Headers */ = {isa = PBXBuildFile; fileRef = 90B9077F10B36ACA00E10618 /* Vec4b */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79A10B776150024EAD9 /* Vec4d in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078010B36ACA00E10618 /* Vec4d */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79B10B776150024EAD9 /* Vec4f in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078110B36ACA00E10618 /* Vec4f */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79C10B776150024EAD9 /* Vec4s in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078210B36ACA00E10618 /* Vec4s */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79D10B776150024EAD9 /* Vec4ub in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078310B36ACA00E10618 /* Vec4ub */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79E10B776150024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078410B36ACA00E10618 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC79F10B776150024EAD9 /* VertexProgram in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078510B36ACA00E10618 /* VertexProgram */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC7A010B776150024EAD9 /* View in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078610B36ACA00E10618 /* View */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC7A110B776150024EAD9 /* Viewport in Headers */ = {isa = PBXBuildFile; fileRef = 90B9078710B36ACA00E10618 /* Viewport */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88410B78B4D0024EAD9 /* Archive in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86510B78B3F0024EAD9 /* Archive */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88510B78B4D0024EAD9 /* AuthenticationMap in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86610B78B3F0024EAD9 /* AuthenticationMap */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88610B78B4D0024EAD9 /* Callbacks in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86710B78B3F0024EAD9 /* Callbacks */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88710B78B4D0024EAD9 /* ConvertUTF in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86810B78B3F0024EAD9 /* ConvertUTF */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88810B78B4D0024EAD9 /* DatabasePager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86910B78B3F0024EAD9 /* DatabasePager */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88910B78B4D0024EAD9 /* DatabaseRevisions in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86A10B78B3F0024EAD9 /* DatabaseRevisions */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88A10B78B4D0024EAD9 /* DotOsgWrapper in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86B10B78B3F0024EAD9 /* DotOsgWrapper */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88B10B78B4D0024EAD9 /* DynamicLibrary in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86C10B78B3F0024EAD9 /* DynamicLibrary */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC88C10B78B4D0024EAD9 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 908EC86D10B78B3F0024EAD9 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89010B78B4D0024EAD9 /* FileCache in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87110B78B3F0024EAD9 /* FileCache */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89110B78B4D0024EAD9 /* FileNameUtils in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87210B78B3F0024EAD9 /* FileNameUtils */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89210B78B4D0024EAD9 /* FileUtils in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87310B78B3F0024EAD9 /* FileUtils */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89310B78B4D0024EAD9 /* fstream in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87410B78B3F0024EAD9 /* fstream */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89410B78B4D0024EAD9 /* ImageOptions in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87510B78B3F0024EAD9 /* ImageOptions */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89510B78B4D0024EAD9 /* ImagePager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87610B78B3F0024EAD9 /* ImagePager */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89610B78B4D0024EAD9 /* Input in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87710B78B3F0024EAD9 /* Input */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89710B78B4D0024EAD9 /* Options in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87810B78B3F0024EAD9 /* Options */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89810B78B4D0024EAD9 /* Output in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87910B78B3F0024EAD9 /* Output */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89910B78B4D0024EAD9 /* ParameterOutput in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87A10B78B3F0024EAD9 /* ParameterOutput */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89A10B78B4D0024EAD9 /* PluginQuery in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87B10B78B3F0024EAD9 /* PluginQuery */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89B10B78B4D0024EAD9 /* ReaderWriter in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87C10B78B3F0024EAD9 /* ReaderWriter */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89C10B78B4D0024EAD9 /* ReadFile in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87D10B78B3F0024EAD9 /* ReadFile */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89D10B78B4D0024EAD9 /* Registry in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87E10B78B3F0024EAD9 /* Registry */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89E10B78B4D0024EAD9 /* Serializer in Headers */ = {isa = PBXBuildFile; fileRef = 908EC87F10B78B3F0024EAD9 /* Serializer */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC89F10B78B4D0024EAD9 /* SharedStateManager in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88010B78B3F0024EAD9 /* SharedStateManager */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC8A010B78B4D0024EAD9 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88110B78B3F0024EAD9 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC8A110B78B4D0024EAD9 /* WriteFile in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88210B78B3F0024EAD9 /* WriteFile */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC8A210B78B4D0024EAD9 /* XmlParser in Headers */ = {isa = PBXBuildFile; fileRef = 908EC88310B78B3F0024EAD9 /* XmlParser */; settings = {ATTRIBUTES = (Public, ); }; };
 		908EC8C010B78B990024EAD9 /* Archive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8A310B78B990024EAD9 /* Archive.cpp */; };
 		908EC8C110B78B990024EAD9 /* AuthenticationMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8A410B78B990024EAD9 /* AuthenticationMap.cpp */; };
 		908EC8C210B78B990024EAD9 /* Callbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8A510B78B990024EAD9 /* Callbacks.cpp */; };
@@ -1081,8 +1078,8 @@
 		908EC8F710B78BA20024EAD9 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8BD10B78B990024EAD9 /* Version.cpp */; };
 		908EC8F810B78BA20024EAD9 /* WriteFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8BE10B78B990024EAD9 /* WriteFile.cpp */; };
 		908EC8F910B78BA20024EAD9 /* XmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 908EC8BF10B78B990024EAD9 /* XmlParser.cpp */; };
-		908EC93D10B793F60024EAD9 /* Config in Headers */ = {isa = PBXBuildFile; fileRef = 908EC93C10B793B90024EAD9 /* Config */; };
-		908EC93F10B794560024EAD9 /* Config in Headers */ = {isa = PBXBuildFile; fileRef = 908EC93E10B7944F0024EAD9 /* Config */; };
+		908EC93D10B793F60024EAD9 /* Config in Headers */ = {isa = PBXBuildFile; fileRef = 908EC93C10B793B90024EAD9 /* Config */; settings = {ATTRIBUTES = (Public, ); }; };
+		908EC93F10B794560024EAD9 /* Config in Headers */ = {isa = PBXBuildFile; fileRef = 908EC93E10B7944F0024EAD9 /* Config */; settings = {ATTRIBUTES = (Public, ); }; };
 		90AF636C10C3269A0041F6A7 /* AlphaFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90AF631410C3269A0041F6A7 /* AlphaFunc.cpp */; };
 		90AF636D10C3269A0041F6A7 /* AnimationPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90AF631510C3269A0041F6A7 /* AnimationPath.cpp */; };
 		90AF636E10C3269A0041F6A7 /* AutoTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90AF631610C3269A0041F6A7 /* AutoTransform.cpp */; };
@@ -1344,30 +1341,30 @@
 		90B90D1A10B39B5700E10618 /* PThreadConditionPrivateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B90D0810B399CA00E10618 /* PThreadConditionPrivateData.h */; };
 		90B90D1B10B39B5700E10618 /* PThreadMutexPrivateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B90D0A10B399CA00E10618 /* PThreadMutexPrivateData.h */; };
 		90B90D1C10B39B5700E10618 /* PThreadPrivateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B90D0B10B399CA00E10618 /* PThreadPrivateData.h */; };
-		90B90D1D10B39B5700E10618 /* Atomic in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089410B36B3B00E10618 /* Atomic */; };
-		90B90D1E10B39B5700E10618 /* Barrier in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089510B36B3B00E10618 /* Barrier */; };
-		90B90D1F10B39B5700E10618 /* Block in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089610B36B3B00E10618 /* Block */; };
-		90B90D2010B39B5700E10618 /* Condition in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089710B36B3B00E10618 /* Condition */; };
-		90B90D2110B39B5700E10618 /* Exports in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089810B36B3B00E10618 /* Exports */; };
-		90B90D2210B39B5700E10618 /* Mutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089910B36B3B00E10618 /* Mutex */; };
-		90B90D2310B39B5700E10618 /* ReadWriteMutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089A10B36B3B00E10618 /* ReadWriteMutex */; };
-		90B90D2410B39B5700E10618 /* ReentrantMutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089B10B36B3B00E10618 /* ReentrantMutex */; };
-		90B90D2510B39B5700E10618 /* ScopedLock in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089C10B36B3B00E10618 /* ScopedLock */; };
-		90B90D2610B39B5700E10618 /* Thread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089D10B36B3B00E10618 /* Thread */; };
-		90B90D2710B39B5700E10618 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089E10B36B3B00E10618 /* Version */; };
+		90B90D1D10B39B5700E10618 /* Atomic in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089410B36B3B00E10618 /* Atomic */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D1E10B39B5700E10618 /* Barrier in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089510B36B3B00E10618 /* Barrier */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D1F10B39B5700E10618 /* Block in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089610B36B3B00E10618 /* Block */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2010B39B5700E10618 /* Condition in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089710B36B3B00E10618 /* Condition */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2110B39B5700E10618 /* Exports in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089810B36B3B00E10618 /* Exports */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2210B39B5700E10618 /* Mutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089910B36B3B00E10618 /* Mutex */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2310B39B5700E10618 /* ReadWriteMutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089A10B36B3B00E10618 /* ReadWriteMutex */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2410B39B5700E10618 /* ReentrantMutex in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089B10B36B3B00E10618 /* ReentrantMutex */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2510B39B5700E10618 /* ScopedLock in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089C10B36B3B00E10618 /* ScopedLock */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2610B39B5700E10618 /* Thread in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089D10B36B3B00E10618 /* Thread */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90D2710B39B5700E10618 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B9089E10B36B3B00E10618 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B90E1110B3A0A500E10618 /* libosg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libosg.a */; };
 		90B90E1210B3A0B300E10618 /* libOpenThreads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B90BD410B37B5100E10618 /* libOpenThreads.a */; };
 		90B90E1510B3A0D600E10618 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B90E1410B3A0D600E10618 /* OpenGLES.framework */; };
-		90B90E2210B3A12500E10618 /* CompositeViewer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1810B3A11A00E10618 /* CompositeViewer */; };
-		90B90E2310B3A12500E10618 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1910B3A11A00E10618 /* Export */; };
-		90B90E2410B3A12500E10618 /* GraphicsWindow in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1A10B3A11A00E10618 /* GraphicsWindow */; };
-		90B90E2510B3A12500E10618 /* Renderer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1B10B3A11A00E10618 /* Renderer */; };
-		90B90E2610B3A12500E10618 /* Scene in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1C10B3A11A00E10618 /* Scene */; };
-		90B90E2710B3A12500E10618 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1D10B3A11A00E10618 /* Version */; };
-		90B90E2810B3A12500E10618 /* View in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1E10B3A11A00E10618 /* View */; };
-		90B90E2910B3A12500E10618 /* Viewer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1F10B3A11A00E10618 /* Viewer */; };
-		90B90E2A10B3A12500E10618 /* ViewerBase in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E2010B3A11A00E10618 /* ViewerBase */; };
-		90B90E2B10B3A12500E10618 /* ViewerEventHandlers in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E2110B3A11A00E10618 /* ViewerEventHandlers */; };
+		90B90E2210B3A12500E10618 /* CompositeViewer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1810B3A11A00E10618 /* CompositeViewer */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2310B3A12500E10618 /* Export in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1910B3A11A00E10618 /* Export */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2410B3A12500E10618 /* GraphicsWindow in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1A10B3A11A00E10618 /* GraphicsWindow */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2510B3A12500E10618 /* Renderer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1B10B3A11A00E10618 /* Renderer */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2610B3A12500E10618 /* Scene in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1C10B3A11A00E10618 /* Scene */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2710B3A12500E10618 /* Version in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1D10B3A11A00E10618 /* Version */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2810B3A12500E10618 /* View in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1E10B3A11A00E10618 /* View */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2910B3A12500E10618 /* Viewer in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E1F10B3A11A00E10618 /* Viewer */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2A10B3A12500E10618 /* ViewerBase in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E2010B3A11A00E10618 /* ViewerBase */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B90E2B10B3A12500E10618 /* ViewerEventHandlers in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E2110B3A11A00E10618 /* ViewerEventHandlers */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B90E3910B3A16600E10618 /* CompositeViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E2C10B3A16600E10618 /* CompositeViewer.cpp */; };
 		90B90E3C10B3A16600E10618 /* HelpHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E2F10B3A16600E10618 /* HelpHandler.cpp */; };
 		90B90E3D10B3A16600E10618 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E3010B3A16600E10618 /* Renderer.cpp */; };
@@ -1380,13 +1377,40 @@
 		90B90E4410B3A16600E10618 /* ViewerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E3710B3A16600E10618 /* ViewerBase.cpp */; };
 		90B90E4510B3A16600E10618 /* ViewerEventHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E3810B3A16600E10618 /* ViewerEventHandlers.cpp */; };
 		90B90E4F10B3A60E00E10618 /* GraphicsWindowIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90B90E4E10B3A60E00E10618 /* GraphicsWindowIOS.mm */; };
-		90B90E5410B3A6F000E10618 /* GraphicsWindowIOS in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E4D10B3A5E400E10618 /* GraphicsWindowIOS */; };
+		90B90E5410B3A6F000E10618 /* GraphicsWindowIOS in Headers */ = {isa = PBXBuildFile; fileRef = 90B90E4D10B3A5E400E10618 /* GraphicsWindowIOS */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B90EA110B3BF5600E10618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B90CA510B38FF200E10618 /* UIKit.framework */; };
 		90B90EE010B3BF5E00E10618 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B90CBA10B3925800E10618 /* QuartzCore.framework */; };
 		90EEDE6110B9F071007F0292 /* libosgGA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 906D8E4B10B901570089D3C3 /* libosgGA.a */; };
 		90EEDE7E10B9F554007F0292 /* ReaderWriterImageIO_IOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90EEDE7D10B9F554007F0292 /* ReaderWriterImageIO_IOS.cpp */; };
 		90EEDF6110BA01CB007F0292 /* libosgdb_imageio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EEDE7310B9F4F1007F0292 /* libosgdb_imageio.a */; };
 		90EEDFBF10BA07B8007F0292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EEDF4D10B9FCA1007F0292 /* CoreGraphics.framework */; };
+		A790C258158371030062A599 /* Observer in Headers */ = {isa = PBXBuildFile; fileRef = D43C195A1168EF6600C537EA /* Observer */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2591583711A0062A599 /* Outline in Headers */ = {isa = PBXBuildFile; fileRef = D4FC8DAD12F173A200E433A5 /* Outline */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25A158371640062A599 /* UserDataContainer in Headers */ = {isa = PBXBuildFile; fileRef = D4178F3B13A2643900637CF0 /* UserDataContainer */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25B158371650062A599 /* ValueObject in Headers */ = {isa = PBXBuildFile; fileRef = D4C10AFB139A27B600166A23 /* ValueObject */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25C158371660062A599 /* GraphicsCostEstimator in Headers */ = {isa = PBXBuildFile; fileRef = D4C0F6A913129B2F00BE4A39 /* GraphicsCostEstimator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25D158371680062A599 /* BufferIndexBinding in Headers */ = {isa = PBXBuildFile; fileRef = D4FC8DA712F1733400E433A5 /* BufferIndexBinding */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25E158371690062A599 /* ShaderAttribute in Headers */ = {isa = PBXBuildFile; fileRef = D45A15A111ECBE2A00EBB947 /* ShaderAttribute */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C25F1583716A0062A599 /* ShaderComposer in Headers */ = {isa = PBXBuildFile; fileRef = D45A15A211ECBE2A00EBB947 /* ShaderComposer */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2601583716C0062A599 /* Texture2DMultisample in Headers */ = {isa = PBXBuildFile; fileRef = D471FD8D11EBBC3000F3BD97 /* Texture2DMultisample */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2611583716D0062A599 /* ObserverNodePath in Headers */ = {isa = PBXBuildFile; fileRef = D43C195B1168EF6600C537EA /* ObserverNodePath */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C262158371890062A599 /* ImageProcessor in Headers */ = {isa = PBXBuildFile; fileRef = A7B90AED1557EE0700BDC614 /* ImageProcessor */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C263158371940062A599 /* ExternalFileWriter in Headers */ = {isa = PBXBuildFile; fileRef = D4C10AFE139A27DA00166A23 /* ExternalFileWriter */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C264158371960062A599 /* DataTypes in Headers */ = {isa = PBXBuildFile; fileRef = D43C196B1168F08000C537EA /* DataTypes */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C265158371970062A599 /* InputStream in Headers */ = {isa = PBXBuildFile; fileRef = D43C196C1168F08000C537EA /* InputStream */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2661583719C0062A599 /* ObjectWrapper in Headers */ = {isa = PBXBuildFile; fileRef = D43C196D1168F08000C537EA /* ObjectWrapper */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2671583719D0062A599 /* OutputStream in Headers */ = {isa = PBXBuildFile; fileRef = D43C196E1168F08000C537EA /* OutputStream */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2681583719E0062A599 /* StreamOperator in Headers */ = {isa = PBXBuildFile; fileRef = D43C196F1168F08000C537EA /* StreamOperator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C269158371D10062A599 /* PerlinNoise in Headers */ = {isa = PBXBuildFile; fileRef = D4E0D0EF14A24AC200903DCC /* PerlinNoise */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26A158371E10062A599 /* MultiTouchTrackballManipulator in Headers */ = {isa = PBXBuildFile; fileRef = D408D59C123F8BD100AABF93 /* MultiTouchTrackballManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26B158371E50062A599 /* FirstPersonManipulator in Headers */ = {isa = PBXBuildFile; fileRef = D471FD6011EBB92700F3BD97 /* FirstPersonManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26C158371E80062A599 /* OrbitManipulator in Headers */ = {isa = PBXBuildFile; fileRef = D471FD6111EBB92700F3BD97 /* OrbitManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26D158371EB0062A599 /* CameraManipulator in Headers */ = {isa = PBXBuildFile; fileRef = D471FD5F11EBB92700F3BD97 /* CameraManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26E158371F00062A599 /* StandardManipulator in Headers */ = {isa = PBXBuildFile; fileRef = D471FD6211EBB92700F3BD97 /* StandardManipulator */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C26F1583720B0062A599 /* Style in Headers */ = {isa = PBXBuildFile; fileRef = D4FC8DAB12F1738000E433A5 /* Style */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790C2701583720D0062A599 /* Glyph in Headers */ = {isa = PBXBuildFile; fileRef = D47D50CE123A7CA2002289EA /* Glyph */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A014A01572BD0D00C0575E /* ShadowSettings in Headers */ = {isa = PBXBuildFile; fileRef = A7B90AE21557ECB900BDC614 /* ShadowSettings */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A014A11572BD0D00C0575E /* ViewDependentShadowMap in Headers */ = {isa = PBXBuildFile; fileRef = A7B90AE31557ECB900BDC614 /* ViewDependentShadowMap */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B90AE41557ECDD00BDC614 /* ViewDependentShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B90AE11557ECA400BDC614 /* ViewDependentShadowMap.cpp */; };
 		A7B90AE51557ECE200BDC614 /* ShadowSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B90ADF1557EC9700BDC614 /* ShadowSettings.cpp */; };
 		D408D59E123F8C2600AABF93 /* MultiTouchTrackballManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D408D59D123F8C2600AABF93 /* MultiTouchTrackballManipulator.cpp */; };
@@ -5719,6 +5743,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A014A01572BD0D00C0575E /* ShadowSettings in Headers */,
+				A7A014A11572BD0D00C0575E /* ViewDependentShadowMap in Headers */,
 				9014C43B10C3656D00947117 /* ConvexPolyhedron in Headers */,
 				9014C43C10C3656D00947117 /* DebugShadowMap in Headers */,
 				9014C43D10C3656D00947117 /* Export in Headers */,
@@ -5982,6 +6008,7 @@
 				906D8D6510B8FD730089D3C3 /* Effect in Headers */,
 				906D8D6610B8FD730089D3C3 /* Export in Headers */,
 				906D8D6710B8FD730089D3C3 /* MultiTextureControl in Headers */,
+				A790C2591583711A0062A599 /* Outline in Headers */,
 				906D8D6810B8FD730089D3C3 /* Registry in Headers */,
 				906D8D6910B8FD730089D3C3 /* Scribe in Headers */,
 				906D8D6A10B8FD730089D3C3 /* SpecularHighlights in Headers */,
@@ -5995,17 +6022,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906D8DAA10B8FF0E0089D3C3 /* DefaultFont.h in Headers */,
 				906D8DB310B8FF340089D3C3 /* Export in Headers */,
 				906D8DB410B8FF340089D3C3 /* FadeText in Headers */,
 				906D8DB510B8FF340089D3C3 /* Font in Headers */,
 				906D8DB610B8FF340089D3C3 /* Font3D in Headers */,
+				A790C2701583720D0062A599 /* Glyph in Headers */,
 				906D8DB710B8FF340089D3C3 /* KerningType in Headers */,
 				906D8DB810B8FF340089D3C3 /* String in Headers */,
+				A790C26F1583720B0062A599 /* Style in Headers */,
 				906D8DB910B8FF340089D3C3 /* Text in Headers */,
 				906D8DBA10B8FF340089D3C3 /* Text3D in Headers */,
 				906D8DBB10B8FF340089D3C3 /* TextBase in Headers */,
 				906D8DBC10B8FF340089D3C3 /* Version in Headers */,
+				906D8DAA10B8FF0E0089D3C3 /* DefaultFont.h in Headers */,
 				D47D50CC123A7C61002289EA /* GlyphGeometry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -6049,14 +6078,19 @@
 			files = (
 				906D8E9710B9026E0089D3C3 /* AnimationPathManipulator in Headers */,
 				906D8E9810B9026E0089D3C3 /* CameraViewSwitchManipulator in Headers */,
+				A790C26D158371EB0062A599 /* CameraManipulator in Headers */,
 				906D8E9910B9026E0089D3C3 /* DriveManipulator in Headers */,
 				906D8E9A10B9026E0089D3C3 /* EventQueue in Headers */,
 				906D8E9B10B9026E0089D3C3 /* EventVisitor in Headers */,
 				906D8E9C10B9026E0089D3C3 /* Export in Headers */,
+				A790C26A158371E10062A599 /* MultiTouchTrackballManipulator in Headers */,
 				906D8E9D10B9026E0089D3C3 /* FlightManipulator in Headers */,
 				906D8E9E10B9026E0089D3C3 /* GUIActionAdapter in Headers */,
+				A790C26B158371E50062A599 /* FirstPersonManipulator in Headers */,
 				906D8E9F10B9026E0089D3C3 /* GUIEventAdapter in Headers */,
 				906D8EA010B9026E0089D3C3 /* GUIEventHandler in Headers */,
+				A790C26C158371E80062A599 /* OrbitManipulator in Headers */,
+				A790C26E158371F00062A599 /* StandardManipulator in Headers */,
 				906D8EA110B9026E0089D3C3 /* KeySwitchMatrixManipulator in Headers */,
 				906D8EA310B9026E0089D3C3 /* NodeTrackerManipulator in Headers */,
 				906D8EA410B9026E0089D3C3 /* SphericalManipulator in Headers */,
@@ -6164,6 +6198,7 @@
 				908EC6A210B75FF90024EAD9 /* HalfWayMapGenerator in Headers */,
 				908EC6A310B75FF90024EAD9 /* HighlightMapGenerator in Headers */,
 				908EC6A410B75FF90024EAD9 /* IncrementalCompileOperation in Headers */,
+				A790C269158371D10062A599 /* PerlinNoise in Headers */,
 				908EC6A510B75FF90024EAD9 /* IntersectionVisitor in Headers */,
 				908EC6A610B75FF90024EAD9 /* IntersectVisitor in Headers */,
 				908EC6A710B75FF90024EAD9 /* LineSegmentIntersector in Headers */,
@@ -6207,7 +6242,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908EC88410B78B4D0024EAD9 /* Archive in Headers */,
 				908EC88510B78B4D0024EAD9 /* AuthenticationMap in Headers */,
 				908EC88610B78B4D0024EAD9 /* Callbacks in Headers */,
 				908EC88710B78B4D0024EAD9 /* ConvertUTF in Headers */,
@@ -6215,11 +6249,16 @@
 				908EC88910B78B4D0024EAD9 /* DatabaseRevisions in Headers */,
 				908EC88A10B78B4D0024EAD9 /* DotOsgWrapper in Headers */,
 				908EC88B10B78B4D0024EAD9 /* DynamicLibrary in Headers */,
-				908EC88C10B78B4D0024EAD9 /* Export in Headers */,
-				908EC88D10B78B4D0024EAD9 /* Field in Headers */,
-				908EC88E10B78B4D0024EAD9 /* FieldReader in Headers */,
-				908EC88F10B78B4D0024EAD9 /* FieldReaderIterator in Headers */,
+				A790C262158371890062A599 /* ImageProcessor in Headers */,
+				A790C263158371940062A599 /* ExternalFileWriter in Headers */,
 				908EC89010B78B4D0024EAD9 /* FileCache in Headers */,
+				A790C265158371970062A599 /* InputStream in Headers */,
+				A790C264158371960062A599 /* DataTypes in Headers */,
+				908EC88C10B78B4D0024EAD9 /* Export in Headers */,
+				A790C2671583719D0062A599 /* OutputStream in Headers */,
+				908EC88410B78B4D0024EAD9 /* Archive in Headers */,
+				A790C2661583719C0062A599 /* ObjectWrapper in Headers */,
+				A790C2681583719E0062A599 /* StreamOperator in Headers */,
 				908EC89110B78B4D0024EAD9 /* FileNameUtils in Headers */,
 				908EC89210B78B4D0024EAD9 /* FileUtils in Headers */,
 				908EC89310B78B4D0024EAD9 /* fstream in Headers */,
@@ -6263,10 +6302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				908EC93F10B794560024EAD9 /* Config in Headers */,
-				90B90D1910B39B5700E10618 /* PThreadBarrierPrivateData.h in Headers */,
-				90B90D1A10B39B5700E10618 /* PThreadConditionPrivateData.h in Headers */,
-				90B90D1B10B39B5700E10618 /* PThreadMutexPrivateData.h in Headers */,
-				90B90D1C10B39B5700E10618 /* PThreadPrivateData.h in Headers */,
 				90B90D1D10B39B5700E10618 /* Atomic in Headers */,
 				90B90D1E10B39B5700E10618 /* Barrier in Headers */,
 				90B90D1F10B39B5700E10618 /* Block in Headers */,
@@ -6278,6 +6313,10 @@
 				90B90D2510B39B5700E10618 /* ScopedLock in Headers */,
 				90B90D2610B39B5700E10618 /* Thread in Headers */,
 				90B90D2710B39B5700E10618 /* Version in Headers */,
+				90B90D1910B39B5700E10618 /* PThreadBarrierPrivateData.h in Headers */,
+				90B90D1A10B39B5700E10618 /* PThreadConditionPrivateData.h in Headers */,
+				90B90D1B10B39B5700E10618 /* PThreadMutexPrivateData.h in Headers */,
+				90B90D1C10B39B5700E10618 /* PThreadPrivateData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6296,7 +6335,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906D31E810BE018800042D38 /* IOSUtils.h in Headers */,
 				90B90E5410B3A6F000E10618 /* GraphicsWindowIOS in Headers */,
 				90B90E2210B3A12500E10618 /* CompositeViewer in Headers */,
 				90B90E2310B3A12500E10618 /* Export in Headers */,
@@ -6308,6 +6346,7 @@
 				90B90E2910B3A12500E10618 /* Viewer in Headers */,
 				90B90E2A10B3A12500E10618 /* ViewerBase in Headers */,
 				90B90E2B10B3A12500E10618 /* ViewerEventHandlers in Headers */,
+				906D31E810BE018800042D38 /* IOSUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6322,7 +6361,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B908CE10B36BC900E10618 /* dxtctool.h in Headers */,
 				908EC93D10B793F60024EAD9 /* Config in Headers */,
 				908EC6FC10B776150024EAD9 /* AlphaFunc in Headers */,
 				908EC6FD10B776150024EAD9 /* AnimationPath in Headers */,
@@ -6415,6 +6453,14 @@
 				908EC75410B776150024EAD9 /* Notify in Headers */,
 				908EC75510B776150024EAD9 /* Object in Headers */,
 				908EC75610B776150024EAD9 /* observer_ptr in Headers */,
+				A790C25A158371640062A599 /* UserDataContainer in Headers */,
+				A790C25B158371650062A599 /* ValueObject in Headers */,
+				A790C25D158371680062A599 /* BufferIndexBinding in Headers */,
+				A790C25C158371660062A599 /* GraphicsCostEstimator in Headers */,
+				A790C25F1583716A0062A599 /* ShaderComposer in Headers */,
+				A790C2611583716D0062A599 /* ObserverNodePath in Headers */,
+				A790C2601583716C0062A599 /* Texture2DMultisample in Headers */,
+				A790C25E158371690062A599 /* ShaderAttribute in Headers */,
 				908EC75710B776150024EAD9 /* OccluderNode in Headers */,
 				908EC75810B776150024EAD9 /* OcclusionQueryNode in Headers */,
 				908EC75910B776150024EAD9 /* OperationThread in Headers */,
@@ -6448,6 +6494,7 @@
 				908EC77510B776150024EAD9 /* StateSet in Headers */,
 				908EC77610B776150024EAD9 /* Stats in Headers */,
 				908EC77710B776150024EAD9 /* Stencil in Headers */,
+				A790C258158371030062A599 /* Observer in Headers */,
 				908EC77810B776150024EAD9 /* StencilTwoSided in Headers */,
 				908EC77910B776150024EAD9 /* Switch in Headers */,
 				908EC77A10B776150024EAD9 /* TemplatePrimitiveFunctor in Headers */,
@@ -6490,6 +6537,7 @@
 				908EC79F10B776150024EAD9 /* VertexProgram in Headers */,
 				908EC7A010B776150024EAD9 /* View in Headers */,
 				908EC7A110B776150024EAD9 /* Viewport in Headers */,
+				90B908CE10B36BC900E10618 /* dxtctool.h in Headers */,
 				D471FD8B11EBBC2400F3BD97 /* GLStaticLibrary.h in Headers */,
 				D4B7ED5A125F0A2D00AA5895 /* dict-list.h in Headers */,
 				D4B7ED5C125F0A2D00AA5895 /* dict.h in Headers */,
@@ -7002,7 +7050,7 @@
 				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OSGIPhone" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -8398,6 +8446,7 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osg;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8417,6 +8466,7 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = osg;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Release;
 		};
@@ -8469,6 +8519,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgAnimation;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8485,6 +8536,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgAnimation;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8503,6 +8555,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgShadow;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8519,6 +8572,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgShadow;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8537,6 +8591,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgWidget;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8553,6 +8608,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgWidget;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8571,6 +8627,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgManipulator;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8587,6 +8644,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgManipulator;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8605,6 +8663,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgPresentation;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8621,6 +8680,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgPresentation;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8647,6 +8707,7 @@
 					"\"$(SRCROOT)/3rdParty/lib\"",
 				);
 				PRODUCT_NAME = osgdb_freetype;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8669,6 +8730,7 @@
 					"\"$(SRCROOT)/3rdParty/lib\"",
 				);
 				PRODUCT_NAME = osgdb_freetype;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8692,6 +8754,7 @@
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
 				PRODUCT_NAME = osgdb_obj;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8709,6 +8772,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgdb_obj;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8732,6 +8796,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgdb_ive;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8753,6 +8818,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgdb_ive;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8772,6 +8838,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgFX;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8789,6 +8856,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgFX;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8808,6 +8876,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgText;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8825,6 +8894,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgText;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8844,6 +8914,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgSim;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8861,6 +8932,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgSim;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8880,6 +8952,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgGA;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8897,6 +8970,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgGA;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8916,6 +8990,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgParticle;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8933,6 +9008,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgParticle;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8952,6 +9028,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgTerrain;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -8969,6 +9046,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgTerrain;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -8988,6 +9066,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgVolume;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Debug;
@@ -9006,6 +9085,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgVolume;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9028,6 +9108,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgUtil;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9046,6 +9127,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgUtil;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9066,6 +9148,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9083,6 +9166,7 @@
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = osgDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9101,6 +9185,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgdb_osg;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9117,6 +9202,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgdb_osg;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9204,7 +9290,9 @@
 					./config,
 					../include,
 				);
+				MODULE_VERSION = /usr/local/lib;
 				PRODUCT_NAME = OpenThreads;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9219,8 +9307,10 @@
 					./config,
 					../include,
 				);
+				MODULE_VERSION = /usr/local/lib;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = OpenThreads;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9294,6 +9384,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgViewer;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9310,6 +9401,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgViewer;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -9328,6 +9420,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgdb_imageio;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 			};
 			name = Debug;
 		};
@@ -9344,6 +9437,7 @@
 					../config/openthreads,
 				);
 				PRODUCT_NAME = osgdb_imageio;
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
