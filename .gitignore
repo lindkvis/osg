@@ -1,0 +1,12 @@
+ipch/
+Debug/
+Release/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.swp
+*~
+.DS_Store
+xcuserdata/
+DerivedData/
