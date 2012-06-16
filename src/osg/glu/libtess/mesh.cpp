@@ -108,7 +108,7 @@ static GLUhalfEdge *MakeEdge( GLUhalfEdge *eNext )
   return e;
 }
 
-/* Splice( a, b ) is best described by the Guibas/Stolfi paper or the
+/* Splice( a, b ) is best deOutlined by the Guibas/Stolfi paper or the
  * CS348a notes (see mesh.h).  Basically it modifies the mesh so that
  * a->Onext and b->Onext are exchanged.  This can have various effects
  * depending on whether a and b belong to different face or vertex rings.

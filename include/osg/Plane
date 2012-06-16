@@ -28,7 +28,7 @@ namespace osg {
 
 /** @brief A plane class. It can be used to represent an infinite plane.
   *
-  * The infinite plane is described by an implicit plane equation a*x+b*y+c*z+d = 0. Though it is not mandatory that
+  * The infinite plane is deOutlined by an implicit plane equation a*x+b*y+c*z+d = 0. Though it is not mandatory that
   * a^2+b^2+c^2 = 1 is fulfilled in general some methods require it (@see osg::Plane::distance). */
 class OSG_EXPORT Plane
 {
@@ -54,20 +54,20 @@ class OSG_EXPORT Plane
         /// Default constructor
         /** The default constructor initializes all values to zero.
           * @warning Although the method osg::Plane::valid() will return true after the default constructors call the plane
-          *          is mathematically invalid! Default data do not describe a valid plane. */
+          *          is mathematically invalid! Default data do not deOutline a valid plane. */
         inline Plane() { _fv[0]=0.0; _fv[1]=0.0; _fv[2]=0.0; _fv[3]=0.0; _lowerBBCorner = 0; _upperBBCorner = 0; }
         inline Plane(const Plane& pl) { set(pl); }
         /// Constructor
-        /** The plane is described as a*x+b*y+c*z+d = 0.
+        /** The plane is deOutlined as a*x+b*y+c*z+d = 0.
           * @remark You may call osg::Plane::MakeUnitLength afterwards if the passed values are not normalized. */
         inline Plane(value_type a,value_type b,value_type c,value_type d) { set(a,b,c,d); }
 
         /// Constructor
-        /** The plane can also be described as vec*[x,y,z,1].
+        /** The plane can also be deOutlined as vec*[x,y,z,1].
           * @remark You may call osg::Plane::MakeUnitLength afterwards if the passed values are not normalized. */
         inline Plane(const Vec4f& vec) { set(vec); }
         /// Constructor
-        /** The plane can also be described as vec*[x,y,z,1].
+        /** The plane can also be deOutlined as vec*[x,y,z,1].
           * @remark You may call osg::Plane::MakeUnitLength afterwards if the passed values are not normalized. */
         inline Plane(const Vec4d& vec) { set(vec); }
 
@@ -83,7 +83,7 @@ class OSG_EXPORT Plane
           * @param v1 Point in the plane.
           * @param v2 Point in the plane.
           * @param v3 Point in the plane.
-          * @remark After this constructor call the plane's normal is normalized in case the three points described a mathematically
+          * @remark After this constructor call the plane's normal is normalized in case the three points deOutlined a mathematically
           *         valid plane.
           * @remark The normal is determined by building the cross product of (v2-v1) ^ (v3-v2). */
         inline Plane(const Vec3_type& v1, const Vec3_type& v2, const Vec3_type& v3) { set(v1,v2,v3); }
@@ -159,7 +159,7 @@ class OSG_EXPORT Plane
         }
 
         /// Checks if all internal values describing the plane have valid numbers
-        /** @warning This method does not check if the plane is mathematically correctly described!
+        /** @warning This method does not check if the plane is mathematically correctly deOutlined!
           * @remark  The only case where all elements have valid numbers and the plane description is invalid occurs if the plane's normal
           *          is zero. */
         inline bool valid() const { return !isNaN(); }

@@ -5,11 +5,11 @@
 #include "ReadWrite.h"
 
 namespace ive{
-class Scribe : public osgFX::Scribe, public ReadWrite {
-public:
-    void write(DataOutputStream* out);
-    void read(DataInputStream* in);
-};
+    class Scribe : public osgFX::Scribe, public ReadWrite {
+    public:
+        void write(DataOutputStream* out);
+        void read(DataInputStream* in);
+    };
 }
 
 #endif

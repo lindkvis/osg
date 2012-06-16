@@ -479,7 +479,7 @@ struct Vertex
     }
 };
 
-// Code from Tom Forsyth's article. The algorithm is described in
+// Code from Tom Forsyth's article. The algorithm is deOutlined in
 // detail at
 // http://home.comcast.net/~tom_forsyth/papers/fast_vert_cache_opt.html.
 // In summary, vertices are assigned a score based on the number of
@@ -496,7 +496,7 @@ struct Vertex
 // mesh. This keeps the algorithm running in time proportional to the
 // size of the mesh.
 
-// The "magic" scoring functions are described in the paper.
+// The "magic" scoring functions are deOutlined in the paper.
 const float cacheDecayPower = 1.5f;
 const float lastTriScore = 0.75f;
 const float valenceBoostScale = 2.0f;

@@ -55,32 +55,32 @@ public:
 
     virtual ~PrimitiveFunctor() {}
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec2* vertices) = 0;
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec3* vertices) = 0;
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec4* vertices) = 0;
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec2d* vertices) = 0;
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec3d* vertices) = 0;
 
-    /** Sets the array of vertices used to describe the primitives. Somehow
+    /** Sets the array of vertices used to deOutline the primitives. Somehow
      *  mimics the OpenGL \c glVertexPointer() function.
      */
     virtual void setVertexArray(unsigned int count,const Vec4d* vertices) = 0;

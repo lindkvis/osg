@@ -18,7 +18,7 @@ using namespace ive;
 
 void Scribe::write(DataOutputStream* out){
     // Write Scribe's identification.
-    out->writeInt(IVESCRIBE);
+    out->writeInt(IVE_SCRIBE);
     // If the osg class is inherited by any other class we should also write this to file.
     osgFX::Effect*  effect = dynamic_cast<osgFX::Effect*>(this);
     if(effect){
@@ -26,7 +26,7 @@ void Scribe::write(DataOutputStream* out){
     }
     else
         out_THROW_EXCEPTION("Scribe::write(): Could not cast this osgFX::Scribe to an osgFX::Effect.");
-
+    
     // Write Scribe's properties.
     out->writeVec4(getWireframeColor());
     out->writeFloat(getWireframeLineWidth());
@@ -35,10 +35,10 @@ void Scribe::write(DataOutputStream* out){
 void Scribe::read(DataInputStream* in){
     // Peek on Scribe's identification.
     int id = in->peekInt();
-    if(id == IVESCRIBE){
+    if(id == IVE_SCRIBE){
         // Read Scribe's identification.
         id = in->readInt();
-
+        
         // If the osg class is inherited by any other class we should also read this from file.
         osgFX::Effect*  effect = dynamic_cast<osgFX::Effect*>(this);
         if(effect){
@@ -46,7 +46,7 @@ void Scribe::read(DataInputStream* in){
         }
         else
             in_THROW_EXCEPTION("Scribe::read(): Could not cast this osgFX::Scribe to an osgFX::Effect.");
-
+        
         // Read Scribe's properties
         setWireframeColor(in->readVec4());
         setWireframeLineWidth(in->readFloat());

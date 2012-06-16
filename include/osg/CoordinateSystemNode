@@ -122,7 +122,7 @@ class OSG_EXPORT CoordinateSystemNode : public Group
         const std::string& getCoordinateSystem() const { return _cs; }
 
 
-        /** Set EllipsoidModel to describe the model used to map lat, long and height into geocentric XYZ and back. */
+        /** Set EllipsoidModel to deOutline the model used to map lat, long and height into geocentric XYZ and back. */
         void setEllipsoidModel(EllipsoidModel* ellipsode) { _ellipsoidModel = ellipsode; }
 
         /** Get the EllipsoidModel.*/

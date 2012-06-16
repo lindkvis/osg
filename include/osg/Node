@@ -40,13 +40,13 @@ class Switch;
 class Geode;
 class Camera;
 
-/** A vector of Nodes pointers which is used to describe the path from a root node to a descendant.*/
+/** A vector of Nodes pointers which is used to deOutline the path from a root node to a descendant.*/
 typedef std::vector< Node* > NodePath;
 
-/** A vector of NodePath, typically used to describe all the paths from a node to the potential root nodes it has.*/
+/** A vector of NodePath, typically used to deOutline all the paths from a node to the potential root nodes it has.*/
 typedef std::vector< NodePath > NodePathList;
 
-/** A vector of NodePath, typically used to describe all the paths from a node to the potential root nodes it has.*/
+/** A vector of NodePath, typically used to deOutline all the paths from a node to the potential root nodes it has.*/
 typedef std::vector< Matrix > MatrixList;
 
 /** META_Node macro define the standard clone, isSameKindAs, className
@@ -329,7 +329,7 @@ class OSG_EXPORT Node : public Object
         inline const osg::StateSet* getStateSet() const { return _stateset.get(); }
 
 
-        /** A vector of std::string's which are used to describe the object.*/
+        /** A vector of std::string's which are used to deOutline the object.*/
         typedef std::vector<std::string> DescriptionList;
 
         /** Set the list of string descriptions.*/

@@ -54,7 +54,7 @@ public:
 };
 
 // Optimize the triangle order in a mesh for best use of the GPU's
-// post-transform cache. This uses Tom Forsyth's algorithm described
+// post-transform cache. This uses Tom Forsyth's algorithm deOutlined
 // at http://home.comcast.net/~tom_forsyth/papers/fast_vert_cache_opt.html
 class OSGUTIL_EXPORT VertexCacheVisitor : public GeometryCollector
 {

@@ -1835,7 +1835,7 @@ osg::Node* DataInputStream::readNode()
         node = new osgFX::Cartoon();
         ((ive::Cartoon*)(node.get()))->read(this);
     }
-    else if(nodeTypeID== IVESCRIBE){
+    else if(nodeTypeID== IVE_SCRIBE){
         node = new osgFX::Scribe();
         ((ive::Scribe*)(node.get()))->read(this);
     }

@@ -444,7 +444,7 @@ osgText::Glyph3D * FreeTypeFont::getGlyph3D(unsigned int charcode)
 
     float coord_scale = getCoordScale();
 
-    // ** init FreeType to describe the glyph
+    // ** init FreeType to deOutline the glyph
     FreeType::Char3DInfo char3d(_facade->getNumberCurveSamples());
     char3d._coord_scale = coord_scale;
 

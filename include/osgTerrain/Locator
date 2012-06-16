@@ -66,7 +66,7 @@ class OSGTERRAIN_EXPORT Locator : public osg::Object
         const std::string& getCoordinateSystem() const { return _cs; }
 
 
-        /** Set EllipsoidModel to describe the model used to map lat, long and height into geocentric XYZ and back. */
+        /** Set EllipsoidModel to deOutline the model used to map lat, long and height into geocentric XYZ and back. */
         void setEllipsoidModel(osg::EllipsoidModel* ellipsode) { _ellipsoidModel = ellipsode; }
 
         /** Get the EllipsoidModel.*/

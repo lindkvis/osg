@@ -454,7 +454,7 @@ static void SpliceMergeVertices( GLUtesselator *tess, GLUhalfEdge *e1,
 static void VertexWeights( GLUvertex *isect, GLUvertex *org, GLUvertex *dst,
 			   GLfloat *weights )
 /*
- * Find some weights which describe how the intersection vertex is
+ * Find some weights which deOutline how the intersection vertex is
  * a linear combination of "org" and "dest".  Each of the two edges
  * which generated "isect" is allocated 50% of the weight; each edge
  * splits the weight between its org and dst according to the

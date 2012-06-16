@@ -101,7 +101,7 @@ typedef GLuint Vertex_index;
 
 
 // CLASS: Edge
-// This class describes an edge of a triangle (it stores vertex indices to the two
+// This class deOutlines an edge of a triangle (it stores vertex indices to the two
 // endpoints).
 
 class Edge {
